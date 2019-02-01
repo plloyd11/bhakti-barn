@@ -1,0 +1,34 @@
+// This file contains all application-wide Sass variables.
+
+// Colors
+$primary-color: #D33E43;
+$bg-dark-gray: #42474C;
+$primaryTeal: #51A8A8;
+
+// Layout
+$section-spacing: 0 0.66667em;
+$layout-restrained: 0 calc(50% - 425px);
+
+// body copy
+$text-font-stack: 'Roboto', sans-serif;
+
+// Copy text color
+// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+// Main brand color
+// @type Color
+$brand-color: #9DA890;
+
+// Light grey
+// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+// Medium grey
+// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+// Dark grey
+// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+

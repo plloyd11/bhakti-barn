@@ -1,0 +1,82 @@
+// This file contains all application-wide Sass mixins.
+// Event wrapper
+// @author Harry Roberts
+// @param {Bool} $self [false] - Whether or not to include current selector
+// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+     @if $self{
+        &,
+        &:active,
+        &:focus,
+        &:hover {
+            @content;
+        }
+    }
+    @else {
+        &:active,
+        &:focus,
+        &:hover {
+            @content;
+        }
+    }
+}
+// Make a context based selector a little more friendly
+// @author Hugo Giraudel
+// @param {String} $context
+@mixin when-inside($context) {
+    #{$context} & {
+        @content;
+    }
+}
+// Mixin for wrapper container
+@mixin wrapper ($vertical) {
+    padding: $vertical calc(50% - 600px);
+}
+// hero mixins
+@mixin hero-img($bg) {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $bg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include mq (medium) {
+      height: 70vh;
+      align-items: flex-start;
+    }
+}
+
+@mixin content-hero-img($bg) {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $bg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include mq (medium) {
+      height: 80vh;
+      max-height: 700px;
+      align-items: flex-start;
+    }
+}
+
+
+@mixin article-callout ($img) {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  $img;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

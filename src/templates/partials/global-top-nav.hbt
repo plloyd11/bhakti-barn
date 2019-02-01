@@ -1,0 +1,9 @@
+<nav class="navbar has-background-teal" role="navigation" aria-label="top navigation">
+    <div class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item has-text-white">My Account</a>
+            <a class="navbar-item has-text-white">Rates</a>
+            <a class="navbar-item has-text-white">Studios</a>
+        </div>
+    </div>
+</nav>

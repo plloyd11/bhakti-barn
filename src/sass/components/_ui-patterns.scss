@@ -1,0 +1,14 @@
+.global--icon-info {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+  > img {
+    width: 15px;
+  }
+  > h4 {
+    margin: 0 .25em;
+  }
+  > p {
+    margin: 0 .25em;
+  }
+}

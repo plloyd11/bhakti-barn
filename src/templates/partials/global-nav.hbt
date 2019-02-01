@@ -1,0 +1,28 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a href="/"><img src="/img/logos/logo.png"></a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Teacher Training</a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">200 Hour RYS Training</a>
+                    <a class="navbar-item">300 Hour RYS Training</a>
+                </div>
+            </div>
+            <a class="navbar-item">Classes</a>
+            <a class="navbar-item">Schedule</a>
+            <a class="navbar-item">Teachers</a>
+            <a class="navbar-item">Meditation</a>
+            <a class="navbar-item">Workshops</a>
+            <a class="navbar-item">Retreats</a>
+        </div>
+    </div>
+</nav>

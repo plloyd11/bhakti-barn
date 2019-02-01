@@ -1,0 +1,54 @@
+// Basic typography style for copy text
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: proxima-soft, sans-serif;
+}
+
+a,
+li,
+p,
+small,
+label {
+  font-family: proxima-soft, sans-serif;
+  font-size: 16px;
+}
+
+.section-header {
+  margin-bottom: 2em;
+  font-size: 24px;
+  color: hsla(215, 15%, 22%,.6);
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.section-header-article {
+  margin-bottom: 2em;
+  font-size: 1.95em;
+  letter-spacing: 0.5px;
+}
+
+.footer-header {
+  margin: 15px 0 30px;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  @include mq(medium) {
+    text-align: left;
+  }
+}
+
+.page-title {
+  margin-left: 9px;
+  font-size: 32px;
+}
+
+.link-dark {
+  &:hover {
+    color: darken($primary-color, 15%);
+  }
+}

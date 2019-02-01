@@ -1,0 +1,66 @@
+.btn-cta {
+    display: inline-block;
+    padding: .85em 1.875em;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.133;
+    -webkit-transition: 150ms ease;
+    transition: 150ms ease;
+    -webkit-transition-property: background-color border-color color;
+    transition-property: background-color border-color color;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    background-color: $primary-color;
+    color: #ffffff;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    transition: all 0.3s cubic-bezier(0.49, 0.99, 0.54, 0.98);
+    &:hover {
+        color: #fff;
+        background: darken($primary-color, 15%);
+        text-decoration: none;
+    }
+}
+
+.btn-ghost {
+    background: inherit;
+    border-width: 0.125em;
+    border-style: solid;
+    border-color: $primary-color;
+    color: $primary-color;
+    text-transform: capitalize;
+    padding: 0.6875em 2.55em;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    &:hover {
+        border-color: darken($primary-color, 15%);
+    }
+}
+
+.btn-submit {
+    padding: 0 3em;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-cta {
+    background: $primary-color;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.49, 0.99, 0.54, 0.98);
+
+    &:hover {
+        color: #fff;
+        background: darken($primary-color, 15%);
+        text-decoration: none;
+    }
+}
