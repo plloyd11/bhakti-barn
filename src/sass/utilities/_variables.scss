@@ -1,9 +1,19 @@
 // This file contains all application-wide Sass variables.
 
 // Colors
-$primary-color: #D33E43;
 $bg-dark-gray: #42474C;
 $primaryTeal: #51A8A8;
+$primaryRed: #FF4C4D;
+$primaryOrange: #FF8F4A;
+$primaryPink: #E84D79;
+$primaryPurple: #4B5098;
+
+// Hover Colors
+$primaryTealHover: hsl(183, 77%, 23%);
+$primaryRedHover: hsl(180, 25%, 42%);
+$primaryOrangeHover: hsl(180, 25%, 42%);
+$primaryPinkHover: hsl(180, 25%, 42%);
+$primaryPurpleHover: hsl(236, 63%, 23%);
 
 // Layout
 $section-spacing: 0 0.66667em;

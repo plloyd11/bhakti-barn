@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+{{> head }}
+
+<body class="{{ page }} article">
+
+  {{> top-nav-orange }}
+
+  {{> global-nav }}
+
+  {{{ contents }}}
+
+  {{> global-footer-orange }}
+
+  {{> scripts }}
+
+</body>
+
+</html>

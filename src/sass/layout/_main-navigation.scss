@@ -1,3 +1,14 @@
+.topnav {
+    .navbar-item {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
 .navbar {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -7,4 +18,69 @@
             max-width: 300px;
         }
     }
+    .navbar-item {
+        color: #3E4040;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+#homepageNav {
+    position: absolute;
+    width: 100%;
+    box-shadow: inherit;
+    background: transparent;
+}
+
+.navbar-dropdown {
+    background: $primaryTeal;
+}
+
+// Top nav specific
+.has-background-teal {
+    .navbar-item {
+        &:hover {
+            background: $primaryTealHover;
+        }
+    }
+}
+
+.has-background-orange {
+    .navbar-item {
+        &:hover {
+            background: $primaryOrangeHover;
+        }
+    }
+}
+
+.has-background-purple {
+    .navbar-item {
+        &:hover {
+            background: $primaryPurpleHover;
+        }
+    }
+}
+
+.has-background-pink {
+    .navbar-item {
+        &:hover {
+            background: $primaryPinkHover;
+        }
+    }
+}
+
+.has-background-red {
+    .navbar-item {
+        &:hover {
+            background: $primaryRedHover;
+        }
+    }
+}
+
+// Bulma Overrides
+
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+    background-color: transparent;
+    color: $primaryTeal;
 }

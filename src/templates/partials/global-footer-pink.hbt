@@ -1,0 +1,25 @@
+<footer class="global--footer footer-teal">
+    <div class="columns container is-widescreen">
+        <div class="column">
+            <img src="/img/logos/emblem.png" alt="Bhakti Barn Yoga Logo" width="175">
+        </div>
+        <div class="column">
+            <h3>Helpful Links</h3>
+            <div>
+                <a href="">My Account</a>
+                <a href="">Getting Started</a>
+                <a href="">Retreats</a>
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+        <div class="column">
+            <h3>Contact</h3>
+            <div>
+                <p>info@bhaktibarn.com</p>
+                <p>555-555-5555</p>
+            </div>
+        </div>
+    </div>
+    <small class="has-text-centered is-block">©2019 - Bhakti Barn Yoga | All right reserved</small>
+    <img src="/img/borders/red-blue-border.png" alt="">
+</footer>

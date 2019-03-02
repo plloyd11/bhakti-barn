@@ -1,0 +1,158 @@
+@mixin classes-bg ($bg) {
+    max-width: 600px;
+    height: 275px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $bg;
+    background-size: cover;
+    color: #fff;
+    transition: 1s ease-in-out;
+}
+
+.homepage--classes {
+    padding: 10em 0;
+
+    &-container {
+    @include mq(thunderbolt) {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    >* {
+        margin: 0;
+    }
+
+    }
+
+    &-row {
+        display: flex;
+        flex-direction: column;
+
+        @include mq (small) {
+            flex-direction: row;
+        }
+
+        &:first-of-type {
+            .homepage--classes-item {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &:nth-child(1) {
+                    @include classes-bg(url('/img/homepage/class-1.jpg') no-repeat center center);
+                }
+
+                &:nth-child(2) {
+                    @include classes-bg(url('/img/homepage/class-2.jpg') no-repeat center center);
+                }
+
+                &:nth-child(3) {
+                    @include classes-bg(url('/img/homepage/class-3.jpg') no-repeat center center);
+                }
+                &:nth-child(4) {
+                    @include classes-bg(#E84D79);
+                }
+            }
+        }
+
+        &:last-of-type {
+            .homepage--classes-item {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &:nth-child(1) {
+                    @include classes-bg(url('/img/homepage/popular-classes.jpg') no-repeat center center);
+                }
+
+                &:nth-child(2) {
+                    @include classes-bg(url('/img/homepage/class-4.jpg') no-repeat center center);
+                }
+
+                &:nth-child(3) {
+                    @include classes-bg(url('/img/homepage/class-5.jpg') no-repeat center center);
+                }
+                &:nth-child(4) {
+                    @include classes-bg(url('/img/homepage/class-6.jpg') no-repeat center center);
+                }
+            }
+        }
+    }
+
+    &-item {
+        img {
+            width: 175px;
+        }
+
+        h4 {
+            margin: 0 0 .35em 0;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        p {
+            text-align: center;
+            padding-left: 4em;
+            padding-right: 4em;
+        }
+    }
+}
+
+.homepage--classes-item-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    z-index: 100;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    >p {
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+}
+
+.slide-down-delay .overlay {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    transform: translateY(-100%);
+    -webkit-transition: transform 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    overflow: hidden;
+}
+
+.slide-down-delay .homepage--classes-item-box:hover .overlay {
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,56 @@
+.homepage {
+    &--hero {
+        height: 400px;
+        background: url('/img/homepage/hero.jpg') no-repeat center center;
+        background-size: cover;
+
+        @include mq(small) {
+            height: 900px;
+        }
+    }
+
+    &--intro {
+        padding: 50px 0;
+
+        @include mq(small) {
+            padding: 125px 0;
+        }
+
+        &_top {
+            align-items: center;
+        }
+    }
+
+    &--callout {
+        height: 600px;
+        background: url('/img/homepage/betsy.jpg') no-repeat left;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        > div {
+            width: 500px;
+            height: 600px;
+            padding: 100px 52px 200px 52px;
+            background: hsla(236, 34%, 45%, .95);
+        }
+    }
+    &--ytt {
+        align-items: center;
+        margin-top: 8em;
+        &_box {
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: $primaryOrange;
+            img {
+                max-width: 125px;
+            }
+        }
+    }
+    &--studios {
+        color: #fff;
+    }
+}

@@ -17,12 +17,12 @@
                     <a class="navbar-item">300 Hour RYS Training</a>
                 </div>
             </div>
-            <a class="navbar-item">Classes</a>
-            <a class="navbar-item">Schedule</a>
-            <a class="navbar-item">Teachers</a>
-            <a class="navbar-item">Meditation</a>
-            <a class="navbar-item">Workshops</a>
-            <a class="navbar-item">Retreats</a>
+            <a href="/classes" class="navbar-item">Classes</a>
+            <a href="/schedule" class="navbar-item">Schedule</a>
+            <a href="/teachers" class="navbar-item">Teachers</a>
+            <a href="/meditation" class="navbar-item">Meditation</a>
+            <a href="/workshops" class="navbar-item">Workshops</a>
+            <a href="/retreats" class="navbar-item">Retreats</a>
         </div>
     </div>
 </nav>

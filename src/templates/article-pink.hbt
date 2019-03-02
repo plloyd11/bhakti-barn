@@ -5,11 +5,13 @@
 
 <body class="{{ page }} article">
 
+  {{> top-nav-pink }}
+
   {{> global-nav }}
 
   {{{ contents }}}
 
-  {{> global-footer }}
+  {{> global-footer-pink }}
 
   {{> scripts }}
 

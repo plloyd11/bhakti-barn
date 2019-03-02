@@ -5,13 +5,13 @@
 
 <body>
 
-  {{> global-top-nav }}
+  {{> top-nav-teal }}
 
-  {{> global-nav }}
+  {{> global-nav-homepage }}
 
   {{{ contents }}}
 
-  {{> global-footer }}
+  {{> global-footer-teal }}
 
   {{> scripts }}
 

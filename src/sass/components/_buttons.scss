@@ -1,6 +1,6 @@
 .btn-cta {
     display: inline-block;
-    padding: .85em 1.875em;
+    padding: .85em 2.875em;
     font-size: 16px;
     border-radius: 5px;
     font-weight: 700;
@@ -15,7 +15,7 @@
     cursor: pointer;
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
-    background-color: $primary-color;
+    background-color: $primaryRed;
     color: #ffffff;
     border-width: 0;
     border-style: solid;
@@ -23,7 +23,7 @@
     transition: all 0.3s cubic-bezier(0.49, 0.99, 0.54, 0.98);
     &:hover {
         color: #fff;
-        background: darken($primary-color, 15%);
+        background: darken($primaryTeal, 15%);
         text-decoration: none;
     }
 }
@@ -32,13 +32,13 @@
     background: inherit;
     border-width: 0.125em;
     border-style: solid;
-    border-color: $primary-color;
-    color: $primary-color;
+    border-color: $primaryTeal;
+    color: $primaryTeal;
     text-transform: capitalize;
     padding: 0.6875em 2.55em;
     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
     &:hover {
-        border-color: darken($primary-color, 15%);
+        border-color: darken($primaryTeal, 15%);
     }
 }
 
@@ -52,7 +52,7 @@
 }
 
 .nav-cta {
-    background: $primary-color;
+    background: $primaryTeal;
     padding: 0.5em 1em;
     color: white;
     border-radius: 2px;
@@ -60,7 +60,7 @@
 
     &:hover {
         color: #fff;
-        background: darken($primary-color, 15%);
+        background: darken($primaryTeal, 15%);
         text-decoration: none;
     }
 }

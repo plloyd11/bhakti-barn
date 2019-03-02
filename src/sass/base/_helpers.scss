@@ -35,3 +35,25 @@
   position: absolute;
   width: 1px;
 }
+
+// margin + padding
+
+.ma {
+  margin: 0 auto;
+}
+
+// Flex Helpers
+
+.is-justified-center {
+  justify-content: center;
+}
+
+.has-column-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.has-text-max-width {
+  max-width: 700px;
+}

@@ -15,7 +15,14 @@ p,
 small,
 label {
   font-family: proxima-soft, sans-serif;
-  font-size: 16px;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 18px;
+  color: #262D2E;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .section-header {
@@ -49,6 +56,11 @@ label {
 
 .link-dark {
   &:hover {
-    color: darken($primary-color, 15%);
+    color: darken($primaryTeal, 15%);
   }
+}
+
+.has-text-script {
+  font-family: 'Waiting for the Sunrise', cursive;
+  line-height: 1.25;
 }
