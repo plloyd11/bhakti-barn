@@ -1,3 +1,14 @@
+.global--footer {
+    h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    &_social {
+        width: 24px;
+    }
+}
+
 .footer-teal {
     background: $primaryTeal;
 }

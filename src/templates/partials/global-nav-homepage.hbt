@@ -13,12 +13,12 @@
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">Teacher Training</a>
                 <div class="navbar-dropdown">
-                    <a href="/teacher-training/200" class="navbar-item">200 Hour RYS Training</a>
-                    <a href="/teacher-training/300" class="navbar-item">300 Hour RYS Training</a>
+                    <a href="/teacher-training/200" class="navbar-item has-text-white">200 Hour RYS Training</a>
+                    <a href="/teacher-training/300" class="navbar-item has-text-white">300 Hour RYS Training</a>
                 </div>
             </div>
             <a href="/classes" class="navbar-item">Classes</a>
-            <a href="/schedule" class="navbar-item">Schedule</a>
+            <a href="/schedule/millburn" class="navbar-item">Schedule</a>
             <a href="/teachers" class="navbar-item">Teachers</a>
             <a href="/meditation" class="navbar-item">Meditation</a>
             <a href="/workshops" class="navbar-item">Workshops</a>

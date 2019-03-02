@@ -6,10 +6,16 @@
         <div class="column">
             <h3>Helpful Links</h3>
             <div>
-                <a href="">My Account</a>
-                <a href="">Getting Started</a>
-                <a href="">Retreats</a>
-                <a href="">Contact Us</a>
+                <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item has-text-white">My Account</a>
+                <a href="/getting-started">Getting Started</a>
+                <a href="/retreats">Retreats</a>
+                <a href="/contact-us">Contact Us</a>
+            </div>
+            <div>
+                <img src="/img/icons/teal/facebook-teal.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/teal/instagram-teal.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/teal/twitter-teal.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/teal/youtube-teal.svg" alt="" class="global--footer_social">
             </div>
         </div>
         <div class="column">

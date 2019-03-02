@@ -35,6 +35,18 @@
             background: hsla(236, 34%, 45%, .95);
         }
     }
+
+    &--icons {
+        padding: 6em 0;
+        .column {
+            max-width: 485px;
+            align-items: flex-start;
+            img {
+                margin-right: 1.25em;
+            }
+        }
+    }
+
     &--ytt {
         align-items: center;
         margin-top: 8em;
@@ -44,7 +56,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background: $primaryOrange;
             img {
                 max-width: 125px;
             }
