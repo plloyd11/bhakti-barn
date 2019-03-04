@@ -18,7 +18,7 @@
                 </div>
             </div>
             <a href="/classes" class="navbar-item">Classes</a>
-            <a href="/schedule" class="navbar-item">Schedule</a>
+            <a href="/schedule/millburn" class="navbar-item">Schedule</a>
             <a href="/teachers" class="navbar-item">Teachers</a>
             <a href="/meditation" class="navbar-item">Meditation</a>
             <a href="/workshops" class="navbar-item">Workshops</a>

@@ -84,3 +84,7 @@
     background-color: transparent;
     color: $primaryTeal;
 }
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: $primaryTeal
+}

@@ -5,3 +5,5 @@ var app = new Vue({
         linx: 'https://www.bhaktibarn.com'
     }
 })
+
+new WOW().init();

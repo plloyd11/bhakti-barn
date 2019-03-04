@@ -1,4 +1,12 @@
 .global--footer {
+    .column {
+        &:nth-of-type(2) {
+            a {
+                padding-left: 0;
+                font-weight: 400;
+            }
+        }
+    }
     h3 {
         font-size: 18px;
         text-transform: uppercase;
@@ -7,8 +15,44 @@
     &_social {
         width: 24px;
     }
+    small {
+        font-size: 14px;
+        color: rgba(13,98,102,0.80);
+        line-height: 21px;
+    }
 }
 
 .footer-teal {
     background: $primaryTeal;
+    h3 {
+        color: $primaryTealHover;
+    }
+}
+
+.footer-pink {
+    background: $primaryPink;
+    h3 {
+        color: $primaryPinkHover;
+    }
+}
+
+.footer-purple {
+    background: $primaryPurple;
+    h3 {
+        color: $primaryPurpleHover;
+    }
+}
+
+.footer-orange {
+    background: $primaryOrange;
+    h3 {
+        color: $primaryOrangeHover;
+    }
+}
+
+.footer-red {
+    background: $primaryRed;
+    h3 {
+        color: $primaryRedHover;
+    }
 }

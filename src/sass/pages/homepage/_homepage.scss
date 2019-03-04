@@ -17,7 +17,11 @@
         }
 
         &_top {
-            align-items: center;
+            @include mq(medium) {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+            }
         }
     }
 
@@ -39,7 +43,7 @@
     &--icons {
         padding: 6em 0;
         .column {
-            max-width: 485px;
+            max-width: 535px;
             align-items: flex-start;
             img {
                 margin-right: 1.25em;
@@ -60,8 +64,19 @@
                 max-width: 125px;
             }
         }
+        .has-background-orange {
+            position: relative;
+            left: 5%;
+        }
+        .has-background-pink {
+            position: relative;
+            right: 5%;
+        }
     }
     &--studios {
         color: #fff;
+        img {
+            max-width: 500px;
+        }
     }
 }

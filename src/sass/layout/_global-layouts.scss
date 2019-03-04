@@ -242,3 +242,7 @@
 .align-center {
     align-self: center;
 }
+
+.container-small {
+    padding: 0 calc(50% - 500px);
+}
