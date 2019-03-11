@@ -1,4 +1,5 @@
 .global--footer {
+    padding-top: 3em;
     .column {
         &:nth-of-type(2) {
             a {
@@ -16,6 +17,7 @@
         width: 24px;
     }
     small {
+        padding-bottom: 1em;
         font-size: 14px;
         color: rgba(13,98,102,0.80);
         line-height: 21px;

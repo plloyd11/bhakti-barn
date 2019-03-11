@@ -1,0 +1,5 @@
+.teachers {
+    .article--hero_left {
+        @include article-hero-left(url('/img/article/teachers-hero.jpg'));
+    }
+}

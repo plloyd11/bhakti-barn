@@ -1,0 +1,24 @@
+.teacher-training-200 {
+    .article--hero_left {
+        @include article-hero-left(url('/img/article/teacher-training-200-hero.jpg'));
+    }
+}
+
+.teacher-training-300 {
+    .article--hero_left {
+        @include article-hero-left(url('/img/article/teacher-training-300-hero.jpg'));
+    }
+}
+
+.teacher-training-callout {
+    position: absolute;
+    top: -64px;
+    right: 0;
+    background: url('/img/article/teacher-training/callout-bg-300.svg');
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

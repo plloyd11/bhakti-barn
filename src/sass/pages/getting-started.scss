@@ -1,0 +1,5 @@
+.getting-started {
+    .article--hero_right {
+        @include article-hero-right(url('/img/article/getting-started-hero.jpg'));
+    }
+}

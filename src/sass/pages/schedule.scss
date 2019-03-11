@@ -1,0 +1,11 @@
+.schedule-millburn {
+    .article--hero_left {
+        @include article-hero-left(url('/img/article/millburn-hero.jpg'));
+    }
+}
+
+.schedule-glenRidge {
+    .article--hero_left {
+        @include article-hero-left(url('/img/article/glen-ridge-hero.jpg'));
+    }
+}

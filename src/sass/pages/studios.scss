@@ -1,0 +1,5 @@
+.studios {
+    .article--hero_right {
+        @include article-hero-right(url('/img/article/studios-hero.jpg'));
+    }
+}

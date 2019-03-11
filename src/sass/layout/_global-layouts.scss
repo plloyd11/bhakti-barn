@@ -225,6 +225,46 @@
     }
 }
 
+.article--hero-content {
+    height: 100%;
+    width: 375px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    opacity: .8;
+    h1 {
+        font-size: 38px;
+        color: #fff;
+    }
+    h4 {
+        margin-bottom: 10px;
+        font-size: 21px;
+        color: #fff;
+        font-family: 'Waiting for the sunrise', script;
+    }
+    p {
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+    }
+    a {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.article--callout_main {
+    @include article-callout(url('/img/article/callout-1.jpg'));
+    h3 {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+    }
+}
+
 // Grid Helpers
 
 .grid-2 {

@@ -1,0 +1,5 @@
+.rates {
+    .article--hero_right {
+        @include article-hero-right(url('/img/article/rates-hero.jpg'));
+    }
+}

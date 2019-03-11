@@ -5,7 +5,7 @@
     <title>{{ title }} </title>
     <meta property="og:image" content="#"/>
     <meta name="robots" content="noindex">
-    <script src="js/vendor/vue.js"></script>
+    <script src="/js/vendor/vue.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/unw2ofg.css">

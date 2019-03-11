@@ -12,10 +12,10 @@
                 <a href="/contact-us" class="navbar-item has-text-white">Contact Us</a>
             </div>
             <div class="has-margin-top-md">
-                <img src="/img/icons/teal/facebook-teal.svg" alt="" class="global--footer_social">
-                <img src="/img/icons/teal/instagram-teal.svg" alt="" class="global--footer_social">
-                <img src="/img/icons/teal/twitter-teal.svg" alt="" class="global--footer_social">
-                <img src="/img/icons/teal/youtube-teal.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/pink/facebook.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/pink/instagram.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/pink/twitter.svg" alt="" class="global--footer_social">
+                <img src="/img/icons/pink/youtube.svg" alt="" class="global--footer_social">
             </div>
         </div>
         <div class="column">
