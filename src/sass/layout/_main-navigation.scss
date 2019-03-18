@@ -89,3 +89,8 @@
 .navbar-link:not(.is-arrowless)::after {
     border-color: $primaryTeal
 }
+
+.navbar-dropdown a.navbar-item:hover {
+    background: hsla(180, 32%, 40%, 1);
+    text-decoration: none;
+}

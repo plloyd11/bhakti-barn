@@ -2,4 +2,50 @@
     .article--hero_left {
         @include article-hero-left(url('/img/article/classes-hero.jpg'));
     }
+
+    nav {
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 0 .25em;
+            color: #FF4C4D;
+            font-size: 16px;
+            font-weight: 500;
+            @include mq (small) {
+                margin: 0 1em;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.our-classes {
+    margin-top: 3.75em;
+    max-width: 700px;
+
+    .class-item {
+        max-width: 675px;
+        margin-bottom: 50px;
+    }
+
+    h4 {
+        color: $primaryPink;
+        font-size: 18px;
+        font-weight: 500;
+        opacity: .5;
+    }
+
+    h2 {
+        margin-top: 7.5px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #5C6161;
+    }
+}
+
+.is-checked {
+    color: #CC1414 !important;
+    text-decoration: underline;
 }

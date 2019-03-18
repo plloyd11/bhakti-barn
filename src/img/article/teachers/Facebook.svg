@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="14px" viewBox="0 0 7 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.25250737,7.00558737 L4.29012667,7.00558737 L4.29012667,14 L1.38226618,14 L1.38226618,7.00558737 L-3.19744231e-14,7.00558737 L-3.19744231e-14,4.53354156 L1.38226618,4.53354156 L1.38226618,2.93458268 C1.38226618,1.78941524 1.92642721,7.01660952e-14 4.31684886,7.01660952e-14 L6.47162936,0.00825958702 L6.47162936,2.40791255 L4.90765226,2.40791255 C4.65306264,2.40791255 4.29109839,2.53520736 4.29109839,3.08131182 L4.29109839,4.53402742 L6.50661114,4.53402742 L6.25250737,7.00558737 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="global/cards/teacher-card" transform="translate(-186.000000, -339.000000)">
+            <g id="teacher-card">
+                <g id="social" transform="translate(141.000000, 338.000000)">
+                    <g id="Facebook" transform="translate(45.000000, 1.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#C2D1D9" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="↪🎨" mask="url(#mask-2)" fill="#51A8A8">
+                            <g transform="translate(-9.000000, -5.000000)" id="Atoms-/-Colors-/-Black">
+                                <rect x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

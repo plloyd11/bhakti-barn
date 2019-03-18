@@ -13,6 +13,17 @@
   }
 }
 
+.wave-section {
+  @include mq (medium) {
+    display: flex;
+    align-items: center;
+    height: 850px;
+  }
+  @include mq (large) {
+    height: 1000px;
+  }
+}
+
 .has-bg-teal {
   background: url('/img/backgrounds/section-bg_teal.svg') no-repeat center center;
   background-size: cover;
@@ -25,5 +36,20 @@
 
 .has-bg-teal_alt {
   background: url('/img/backgrounds/section-bg_teal_alt.svg') no-repeat center center;
+  background-size: cover;
+}
+
+.has-bg-purple {
+  background: url('/img/backgrounds/section-bg_purple.svg') no-repeat center center;
+  background-size: cover;
+}
+
+.has-bg-purple-small {
+  background: url('/img/backgrounds/section-bg_purple_small.svg') no-repeat center center;
+  background-size: cover;
+}
+
+.has-bg-orange {
+  background: url('/img/backgrounds/section-bg_orange.svg') no-repeat center center;
   background-size: cover;
 }

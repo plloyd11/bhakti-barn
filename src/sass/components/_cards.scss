@@ -1,0 +1,32 @@
+.rates {
+    .card {
+        padding: 45px;
+    }
+}
+
+.card-header {
+    flex-direction: column;
+    box-shadow: none;
+    h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}
+
+.card-price {
+    font-size: 38px;
+    font-weight: 600;
+    color: #4E4F61;
+}
+
+.card-hr {
+    margin: 0;
+    background: hsla(237, 11%, 34%,.4);
+}
+
+.card_small {
+    .card-hr {
+        width: 125px;
+    }
+}

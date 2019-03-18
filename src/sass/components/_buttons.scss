@@ -1,6 +1,6 @@
 .btn-cta {
     display: inline-block;
-    padding: .85em 2.875em;
+    padding: .85em 3.75em .95em;
     font-size: 16px;
     border-radius: 5px;
     font-weight: 700;
@@ -29,10 +29,26 @@
 }
 
 .btn-ghost {
+    background: #fff;
+    border: 1px solid $primaryRed;
+    color: $primaryRed;
+    padding: .85em 3.75em .95em;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .35s ease-in-out;
+    &:hover {
+        background: #fff;
+        color: $paragraphColor;
+        text-decoration: none;
+    }
+}
+
+.btn-ghost-transparent {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
-    padding: 0.6875em 2.55em;
+    padding: .85em 3.75em .95em;
     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
     border-radius: 8px;
     font-weight: 600;

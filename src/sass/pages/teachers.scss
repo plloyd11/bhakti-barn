@@ -3,3 +3,57 @@
         @include article-hero-left(url('/img/article/teachers-hero.jpg'));
     }
 }
+
+.teacher-cards {
+    &_grid {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    }
+}
+
+.teacher-card {
+    padding-bottom: 1.5em;
+    &-info {
+        margin-top: 1em;
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #5C6161;
+            text-align: center;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 500;
+            color: #5C6161;
+            text-align: center;
+        }
+    }
+
+    &-social {
+        hr {
+            margin: 15px auto;
+            width: 50%;
+            background: #87A8A8;
+        }
+        &_icons {
+            display: flex;
+            justify-content: center;
+            img {
+                margin: 0 1em;
+            }
+        }
+    }
+
+    &-quote {
+        p {
+            margin: 0 auto;
+            max-width: 205px;
+            font-size: 15px;
+            color: #3E4040;
+            text-align: center;
+        }
+    }
+}

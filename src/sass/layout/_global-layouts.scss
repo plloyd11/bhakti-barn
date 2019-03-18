@@ -265,6 +265,16 @@
     }
 }
 
+.article--callout_alt {
+    @include article-callout(url('/img/article/callout-2.jpg'));
+    h3 {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+}
+
 // Grid Helpers
 
 .grid-2 {

@@ -2,4 +2,39 @@
     .article--hero_left {
         @include article-hero-left(url('/img/article/retreats-hero.jpg'));
     }
+    &-item {
+        margin-right: 0 !important;
+        &--info {
+            &_content {
+                max-width: 550px;
+                li {
+                    margin-bottom: .5em;
+                    font-size: 1.15rem;
+                }
+            }
+            &_signup {
+                color: #fff;
+                padding: 50px 100px;
+                h5 {
+                    margin-bottom: .35em;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: .95rem;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.bali-bg {
+    background: url('/img/article/retreats/bali-signup-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.india-bg {
+    background: url('/img/article/retreats/india-signup-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
