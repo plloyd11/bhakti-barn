@@ -296,3 +296,10 @@
 .container-small {
     padding: 0 calc(50% - 500px);
 }
+
+.is-flex-vertical-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

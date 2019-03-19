@@ -33,18 +33,22 @@
         flex-direction: column;
         align-items: flex-end;
         > div {
-            width: 500px;
             height: 600px;
-            padding: 100px 52px 200px 52px;
+            padding: 60px 50px 80px 50px;
             background: hsla(236, 34%, 45%, .95);
+            @include mq (small) {
+                width: 500px;
+                padding: 100px 52px 200px 52px;
+            }
         }
     }
 
     &--icons {
-        padding: 6em 0;
         .column {
-            max-width: 535px;
             align-items: flex-start;
+            @include mq (medium) {
+                max-width: 535px;
+            }
             img {
                 margin-right: 1.25em;
             }
@@ -76,7 +80,9 @@
     &--studios {
         color: #fff;
         img {
-            max-width: 500px;
+            @include mq (small) {
+                max-width: 500px;        
+            }
         }
     }
 }

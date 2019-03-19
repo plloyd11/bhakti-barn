@@ -1,8 +1,8 @@
 $breakpoints: (
-  'small'  : ( min-width:  700px ),
+  'small'  : ( min-width:  768px ),
   'medium' : ( min-width:  1088px ),
-  'large'  : ( min-width: 1400px ),
-  'thunderbolt'  : ( min-width: 1800px )
+  'large'  : ( min-width: 1472px ),
+  'hd'  : ( min-width: 1800px )
 );
 
 @mixin mq($name) {

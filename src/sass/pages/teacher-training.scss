@@ -1,16 +1,46 @@
 .teacher-training-200 {
+    position: relative;
     .article--hero_left {
         @include article-hero-left(url('/img/article/teacher-training-200-hero.jpg'));
     }
 }
 
 .teacher-training-300 {
+    position: relative;
     .article--hero_left {
         @include article-hero-left(url('/img/article/teacher-training-300-hero.jpg'));
     }
 }
 
 .teacher-training-callout {
+    &-200 {
+        position: absolute;
+        top: -64px;
+        right: 0;
+        background: url('/img/article/teacher-training/callout-bg-200.svg');
+        width: 600px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &-curriculum {
+        margin: 0 1em 10em;
+        display: flex;
+        justify-content: space-between;
+        div {
+            margin: 0 1.25em;
+        }
+        p {
+            color: #fff;
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+.teacher-training-callout-300 {
     position: absolute;
     top: -64px;
     right: 0;
@@ -21,4 +51,44 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.testimony-circle-200 {
+    position: absolute;
+    right: 50px;
+    top: calc(50% - 68em);
+    width: 475px;
+    height: 475px;
+    padding: 100px 60px 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    @include mq (medium) {
+        top: calc(50% - 70em);
+    }
+    @include mq (large) {
+        top: calc(50% - 64em);
+    }
+}
+
+.testimony-circle-300 {
+    position: absolute;
+    right: 50px;
+    top: calc(50% - 68em);
+    width: 475px;
+    height: 475px;
+    padding: 100px 60px 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    @include mq (medium) {
+        top: calc(50% + 15em);
+    }
+    @include mq (large) {
+        top: calc(50% - 64em);
+    }
 }

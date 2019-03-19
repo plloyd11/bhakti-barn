@@ -1,11 +1,8 @@
 .btn-cta {
     display: inline-block;
     padding: .85em 3.75em .95em;
-    font-size: 16px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.133;
     -webkit-transition: 150ms ease;
     transition: 150ms ease;
     -webkit-transition-property: background-color border-color color;
@@ -23,7 +20,7 @@
     transition: all 0.3s cubic-bezier(0.49, 0.99, 0.54, 0.98);
     &:hover {
         color: #fff;
-        background: darken($primaryRed, 15%);
+        background: hsla(360, 68%, 55%, 1);
         text-decoration: none;
     }
 }
@@ -32,14 +29,14 @@
     background: #fff;
     border: 1px solid $primaryRed;
     color: $primaryRed;
-    padding: .85em 3.75em .95em;
+    padding: .7em 3.15em .8em;
     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
     border-radius: 8px;
     font-weight: 600;
     transition: .35s ease-in-out;
     &:hover {
-        background: #fff;
-        color: $paragraphColor;
+        background: hsla(360, 68%, 55%, 1);
+        color: #fff;
         text-decoration: none;
     }
 }
