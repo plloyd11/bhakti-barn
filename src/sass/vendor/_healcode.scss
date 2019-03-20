@@ -1,0 +1,56 @@
+.healcode-description-area {
+    div {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.5;
+        color: #262D2E;
+    }
+
+}
+
+.healcode {
+    .enrollment {
+        box-shadow: 0 2px 3px rgba(10, 10, 10, .1);
+    }
+
+    .schedule {
+
+        .classname,
+        .trainer {
+            a {
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+
+        .hc_time {
+            font-size: 15px;
+        }
+    }
+}
+
+// Row Header Styles
+
+div.healcode table.schedule tr th,
+div.healcode table.schedule ol.schedule_list li.schedule_header {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    padding: .45em .5em !important;
+}
+
+// Button Styles
+
+div.healcode.enrollments .healcode-course-name a,
+div.healcode.enrollments .healcode-enrollment-name a {
+    color: #262D2E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div.healcode a.hc-button,
+div.healcode input.hc-button,
+.hc_cart_button {
+    padding: .5em .85em !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}

@@ -21,11 +21,14 @@
   }
   .Expander__trigger {
     cursor: pointer;
-    padding: 0.7rem 0.5rem;
+    padding: 1.25em 0.5em;
     border-bottom: 1px solid #efefef;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Proxima Soft', sans-serif;
   }
   .Expander__trigger:hover {
-    color: #477dca;
+    color: #fff;
   }
   .Expander__trigger.active {
     border-bottom-color: #477dca;
@@ -34,7 +37,7 @@
     transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
   }
   .Expander__trigger-Icon.open {
-    stroke: #ff6347;
+    stroke: $primaryRed;
     transform: rotate(180deg);
   }
   .Expander__body {
