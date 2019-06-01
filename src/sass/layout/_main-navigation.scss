@@ -15,8 +15,7 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     &-brand {
         img {
-            padding-left: 2.5%;
-            max-width: 300px;
+            max-width: 275px;
         }
     }
     .navbar-item {
@@ -93,4 +92,8 @@
 .navbar-dropdown a.navbar-item:hover {
     background: hsla(180, 32%, 40%, 1);
     text-decoration: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
+    background-color: transparent;
 }

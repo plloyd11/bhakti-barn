@@ -15,7 +15,7 @@
                             <use xlink:href="#path-1"></use>
                         </mask>
                         <use id="Mask" fill="#C2D1D9" fill-rule="nonzero" xlink:href="#path-1"></use>
-                        <g id="↪🎨" mask="url(#mask-2)" fill="#51A8A8">
+                        <g id="↪🎨" mask="url(#mask-2)" fill="#4B5098">
                             <g transform="translate(-9.000000, -5.000000)" id="Atoms-/-Colors-/-Black">
                                 <rect x="0" y="0" width="24" height="24"></rect>
                             </g>

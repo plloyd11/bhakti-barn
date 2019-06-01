@@ -1,9 +1,12 @@
 <nav class="topnav has-background-orange" role="navigation" aria-label="top navigation">
-    <div class="navbar-menu">
-        <div class="navbar-end">
-            <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item has-text-white">My Account</a>
-            <a href="/rates" class="navbar-item has-text-white">Rates</a>
-            <a href="/studios" class="navbar-item has-text-white">Studios</a>
+    <div class="container">
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank"
+                    class="navbar-item has-text-white">My Account</a>
+                <a href="/rates" class="navbar-item has-text-white">Rates</a>
+                <a href="/studios" class="navbar-item has-text-white">Studios</a>
+            </div>
         </div>
     </div>
 </nav>

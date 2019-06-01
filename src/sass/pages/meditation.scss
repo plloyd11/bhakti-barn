@@ -2,6 +2,7 @@
     .article--hero_left {
         @include article-hero-left(url('/img/article/meditation-hero.jpg'));
     }
+
     &-card {
         padding-left: 30px;
         padding-right: 30px;
@@ -10,8 +11,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        border: 3px solid $primaryPink;
+
         .card-header {
             margin-top: 30px;
+
             h2 {
                 padding: 0;
                 margin-bottom: 6px;
@@ -19,12 +23,19 @@
                 font-size: 26px;
                 font-weight: 600;
             }
+
             p {
                 font-size: 18px;
                 color: #5C6161;
                 opacity: 0.8;
             }
         }
+
+        .card-footer {
+            padding-top: 2.5px;
+            border-top: 1px solid hsla(343, 77%, 61%, .8);
+        }
+
         .card-content {
             padding: 0;
         }
