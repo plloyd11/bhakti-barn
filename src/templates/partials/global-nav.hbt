@@ -1,14 +1,30 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="container">
+    <div class="container is-fluid">
         <div class="navbar-brand">
             <a href="/"><img src="/img/logos/logo.png"></a>
 
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+            <div class="mobile-menu-trigger is-hidden-desktop">                
+                <span><img class="open-menu" src="/img/icons/menu.svg" alt=""/></span>
+            </div>
+            
+            <div class="mobile-menu--overlay">
+                <img class="close-menu" src="/img/icons/close.svg" alt=""/>
+                <nav class="mobile-menu--overlay_items">
+                    <ul>
+                        <li><a href="/teacher-training/200" class="navbar-item">200 Hour RYS Training</a></li>
+                        <li><a href="/teacher-training/300" class="navbar-item">300 Hour RYS Training</a></li>
+                        <li><a href="/classes" class="navbar-item">Classes</a></li>
+                        <li><a href="/schedule/millburn" class="navbar-item">Schedule</a></li>
+                        <li><a href="/teachers" class="navbar-item">Teachers</a></li>
+                        <li><a href="/meditation" class="navbar-item">Meditation</a></li>
+                        <li><a href="/workshops" class="navbar-item">Workshops</a></li>
+                        <li><a href="/retreats" class="navbar-item">Retreats</a></li>
+                        <li><a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item">My Account</a></li>
+                        <li><a href="/rates" class="navbar-item">Rates</a></li>
+                        <li><a href="/studios" class="navbar-item">Studios</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <div class="navbar-menu">
             <div class="navbar-end">

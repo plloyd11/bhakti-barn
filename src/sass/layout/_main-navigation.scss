@@ -23,6 +23,12 @@
         font-size: 16px;
         font-weight: 500;
         text-transform: uppercase;
+        @media (min-width: 1088px) {
+            font-size: 14px;
+        }
+        @media (min-width: 1280px) {
+            font-size: 16px;
+        }
     }
 }
 
@@ -79,6 +85,11 @@
 }
 
 // Bulma Overrides
+
+.navbar-brand {
+    justify-content: space-between;
+    align-items: center;
+}
 
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
     background-color: transparent;

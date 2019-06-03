@@ -1,5 +1,5 @@
 <nav class="topnav has-background-orange" role="navigation" aria-label="top navigation">
-    <div class="container">
+    <div class="container is-fluid">
         <div class="navbar-menu">
             <div class="navbar-end">
                 <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank"
