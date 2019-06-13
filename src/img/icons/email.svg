@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Contact-Us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact-us" transform="translate(-231.000000, -1105.000000)" fill-rule="nonzero">
+            <g id="contact-info" transform="translate(231.000000, 815.000000)">
+                <g id="email" transform="translate(0.000000, 286.000000)">
+                    <g id="icon-mail" transform="translate(0.000000, 4.000000)">
+                        <path d="M25,5.82417582 L25,17.5086425 C25,18.8845813 23.8807119,20 22.5,20 L2.5,20 C1.11928813,20 0,18.8845813 0,17.5086425 L0,5.82417582 L11.9375,11.7660635 C12.2913095,11.9437329 12.7086905,11.9437329 13.0625,11.7660635 L25,5.82417582 Z" id="Path" fill="#FF8F4A"></path>
+                        <path d="M12.5,9.23076923 L0,2.97686054 L0,2.50156348 C0,1.12570356 1.125,0 2.5,0 L22.5,0 C23.8807119,0 25,1.11998812 25,2.50156348 L25,2.97686054 L12.5,9.23076923 L12.5,9.23076923 Z" id="Path" fill="#dd7a3c"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

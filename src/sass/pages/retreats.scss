@@ -1,6 +1,6 @@
 .retreats {
     .article--hero_left {
-        @include article-hero-left(url('/img/article/retreats-hero.jpg'));
+        @include article-hero-left(url('/img/article/retreats/retreats-hero.jpg'));
     }
     &-item {
         margin-right: 0 !important;
