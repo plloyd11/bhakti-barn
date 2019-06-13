@@ -1,4 +1,5 @@
 .classes {
+    position: relative;
     .article--hero_left {
         @include article-hero-left(url('/img/article/classes-hero.jpg'));
     }
@@ -12,6 +13,7 @@
             color: #FF4C4D;
             font-size: 16px;
             font-weight: 500;
+
             @include mq (small) {
                 margin: 0 1em;
                 font-size: 18px;
@@ -42,6 +44,37 @@
         font-size: 28px;
         font-weight: 600;
         color: #5C6161;
+    }
+
+    &_sweetener-1 {
+        display: none;
+
+        @include mq(small) {
+            position: absolute;
+            right: 0;
+            top: 25%;
+            display: block;
+            width: 250px;
+        }
+
+        @include mq(medium) {
+            width: 375px;
+        }
+    }
+    &_sweetener-2 {
+        display: none;
+
+        @include mq(small) {
+            position: absolute;
+            left: 0;
+            top: 55%;
+            display: block;
+            width: 175px;
+        }
+
+        @include mq(medium) {
+            width: 325px;
+        }
     }
 }
 
