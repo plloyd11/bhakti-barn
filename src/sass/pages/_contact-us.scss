@@ -1,0 +1,24 @@
+.contact-us {
+    .article--hero_right {
+        @include article-hero-right(url('/img/article/getting-started-hero.jpg'));
+    }
+
+    &--icons {
+        margin-top: 24px;
+
+        >div {
+            margin-bottom: 24px;
+            display: flex;
+            align-items: flex-start;
+
+            img {
+                margin-right: 18px;
+            }
+        }
+    }
+
+    .contact-form {
+        padding: 1.25em 3em 2em;
+        box-shadow: 2px 5px 15px 0 rgba(0,0,0,0.06);
+    }
+}
