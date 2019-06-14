@@ -15,15 +15,21 @@
 .teacher-training-callout {
     &-200 {
         position: absolute;
-        top: -64px;
+        top: -175px;
         right: 0;
-        background: url('/img/article/teacher-training/callout-bg-200.svg');
-        width: 600px;
-        height: 900px;
+        background: url('/img/article/teacher-training/callout-bg-200.png') no-repeat center center;
+        width: 758px;
+        height: 1800px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-size: cover;
+        z-index: 1;
+        > div {
+            margin-bottom: 30em;
+            text-align: center;
+        }
     }
     &-curriculum {
         margin: 0 1em 10em;
@@ -65,11 +71,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    z-index: 100;
     @include mq (medium) {
-        top: calc(50% - 70em);
+        top: calc(50% - 85em);
     }
     @include mq (large) {
-        top: calc(50% - 64em);
+        top: calc(50% - 75em);
     }
 }
 
@@ -91,4 +98,8 @@
     @include mq (large) {
         top: calc(50% - 64em);
     }
+}
+
+.has-bigass-zindex {
+    z-index: 10000;
 }
