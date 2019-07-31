@@ -6,6 +6,7 @@
                     class="navbar-item has-text-white">My Account</a>
                 <a href="/rates" class="navbar-item has-text-white">Rates</a>
                 <a href="/studios" class="navbar-item has-text-white">Studios</a>
+                <a href="tel:+9732326227" class="navbar-item has-text-white">(973) 232-6227</a>
             </div>
         </div>
     </div>

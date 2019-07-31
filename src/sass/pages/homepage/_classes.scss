@@ -17,15 +17,15 @@
     padding: 11em 0;
 
     &-container {
-    @include mq(hd) {
-        display: block;
-        margin: 0 auto;
-        width: 70%;
-    }
+        @include mq(hd) {
+            display: block;
+            margin: 0 auto;
+            width: 70%;
+        }
 
-    >* {
-        margin: 0;
-    }
+        >* {
+            margin: 0;
+        }
 
     }
 
@@ -39,6 +39,10 @@
 
         &:first-of-type {
             .homepage--classes-item {
+                a {
+                    color: #fff;
+                }
+
                 &::after {
                     content: '';
                     position: absolute;
@@ -47,16 +51,17 @@
                 }
 
                 &:nth-child(1) {
-                    @include classes-bg(url('/img/homepage/class-1.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/chair-yoga.jpg') no-repeat center center);
                 }
 
                 &:nth-child(2) {
-                    @include classes-bg(url('/img/homepage/class-2.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/meditation.jpg') no-repeat center center);
                 }
 
                 &:nth-child(3) {
-                    @include classes-bg(url('/img/homepage/class-3.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/yoga.jpg') no-repeat center center);
                 }
+
                 &:nth-child(4) {
                     @include classes-bg(#E84D79);
                 }
@@ -65,6 +70,10 @@
 
         &:last-of-type {
             .homepage--classes-item {
+                a {
+                    color: #fff;
+                }
+
                 &::after {
                     content: '';
                     position: absolute;
@@ -77,14 +86,15 @@
                 }
 
                 &:nth-child(2) {
-                    @include classes-bg(url('/img/homepage/class-4.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/restorative.jpg') no-repeat center center);
                 }
 
                 &:nth-child(3) {
-                    @include classes-bg(url('/img/homepage/class-5.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/kundalini.jpg') no-repeat center center);
                 }
+
                 &:nth-child(4) {
-                    @include classes-bg(url('/img/homepage/class-6.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/tai-chi.jpg') no-repeat center center);
                 }
             }
         }

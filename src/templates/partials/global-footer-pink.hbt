@@ -6,7 +6,8 @@
         <div class="column">
             <h3 class="has-margin-bottom-sm">Helpful Links</h3>
             <div>
-                <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item has-text-white">My Account</a>
+                <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank"
+                    class="navbar-item has-text-white">My Account</a>
                 <a href="/getting-started" class="navbar-item has-text-white">Getting Started</a>
                 <a href="/retreats" class="navbar-item has-text-white">Retreats</a>
                 <a href="/contact-us" class="navbar-item has-text-white">Contact Us</a>
@@ -21,8 +22,8 @@
         <div class="column">
             <h3 class="has-margin-bottom-sm">Contact</h3>
             <div>
-                <p class="has-text-white">info@bhaktibarn.com</p>
-                <p class="has-text-white">555-555-5555</p>
+                <p class="has-text-white">bhaktibarn@gmail.com</p>
+                <p class="has-text-white">(973) 232-6227</p>
             </div>
         </div>
     </div>
