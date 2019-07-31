@@ -21,31 +21,26 @@ Vue.component("Expander", {
         </div>
     `,
     props: {
-      title: {
-        type: String,
-        default: 'title'
-      },
-      animation: {
-        type: String,
-        default: 'rightToLeft'
-      }
+        title: {
+            type: String,
+            default: "title"
+        },
+        animation: {
+            type: String,
+            default: "rightToLeft"
+        }
     },
     data() {
-      return {
-        open: false
-      }
+        return {
+            open: false
+        };
     }
-  })
-  
-  
-  const vm = new Vue({
+});
+
+const vm = new Vue({
     el: ".expanderSection",
-    data: {
-    },
-    computed: {
-    },
-    methods: {
-    },
-    mounted() {
-    }
-  });
+    data: {},
+    computed: {},
+    methods: {},
+    mounted() {}
+});

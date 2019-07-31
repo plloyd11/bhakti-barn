@@ -1,14 +1,14 @@
 .teachers {
     .article--hero_left {
-        @include article-hero-left(url('/img/article/teachers-hero.jpg'));
+        @include article-hero-left(url("/img/article/teachers-hero.jpg"));
     }
 }
 
 .teacher-cards {
     &_grid {
         display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        grid-gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }
 }
 
@@ -21,26 +21,26 @@
         h2 {
             font-size: 18px;
             font-weight: 700;
-            color: #5C6161;
+            color: #5c6161;
             text-align: center;
         }
 
         p {
             font-size: 15px;
             font-weight: 500;
-            color: #5C6161;
+            color: #5c6161;
             text-align: center;
         }
     }
 
-    &-social {
+    &-read-more {
         hr {
             margin: 15px auto;
             width: 50%;
-            background: #4B5098;
+            background: #4b5098;
         }
 
-        &_icons {
+        &_link {
             display: flex;
             justify-content: center;
 
@@ -55,7 +55,7 @@
             margin: 0 auto;
             max-width: 205px;
             font-size: 15px;
-            color: #3E4040;
+            color: #3e4040;
             text-align: center;
         }
     }

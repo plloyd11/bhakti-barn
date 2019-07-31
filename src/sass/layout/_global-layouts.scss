@@ -5,7 +5,7 @@
         align-items: center;
         justify-content: space-between;
 
-        @include mq (medium) {
+        @include mq(medium) {
             flex-direction: row;
             align-items: flex-start;
         }
@@ -30,18 +30,17 @@
             order: inherit;
         }
 
-        >h3 {
+        > h3 {
             font-size: 26px;
             font-weight: 600;
         }
 
-        >p {
+        > p {
             font-size: 18px;
-            color: #2F3640;
+            color: #2f3640;
         }
     }
 }
-
 
 // HR Spacers
 .hr-content_horizontal {
@@ -114,11 +113,10 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    >div {
+    > div {
         flex: 1;
     }
 }
-
 
 .text-block-container {
     display: -webkit-box;
@@ -161,7 +159,7 @@
     display: flex;
     align-items: center;
 
-    >img {
+    > img {
         max-width: 225px;
     }
 }
@@ -183,8 +181,7 @@
     width: 75px;
     height: 75px;
     background-color: #fff;
-    box-shadow: 0 20px 40px 0 rgba(23, 28, 33, 0.1),
-        0 7px 13px 0 rgba(23, 28, 33, 0.05);
+    box-shadow: 0 20px 40px 0 rgba(23, 28, 33, 0.1), 0 7px 13px 0 rgba(23, 28, 33, 0.05);
     border-radius: 50%;
     padding: 13px;
 }
@@ -234,7 +231,7 @@
         max-width: 600px;
         text-align: center;
 
-        >h3 {
+        > h3 {
             margin-bottom: 15px;
             color: #fff;
             line-height: 1.5;
@@ -244,9 +241,9 @@
 }
 
 .article--hero-content {
-    height: 350px;
-    width: 375px;
-    padding: 50px 35px;
+    height: 400px;
+    width: 350px;
+    padding: 20px 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -255,18 +252,21 @@
 
     @include mq(medium) {
         height: 450px;
+        padding: 50px 35px;
     }
 
     h1 {
-        font-size: 38px;
+        font-size: 36px;
         color: #fff;
     }
 
     h4 {
         margin-bottom: 10px;
         font-size: 26px;
+        text-align: center;
+        line-height: 1.15;
         color: #fff;
-        font-family: 'Waiting for the sunrise', script;
+        font-family: "Waiting for the sunrise", script;
     }
 
     p {
@@ -283,7 +283,7 @@
 }
 
 .article--callout_main {
-    @include article-callout(url('/img/article/callout-1.jpg'));
+    @include article-callout(url("/img/article/callout-1.jpg"));
 
     h3 {
         font-size: 24px;
@@ -293,7 +293,7 @@
 }
 
 .article--callout_workshops {
-    @include article-callout(url('/img/article/callout-3.jpg'));
+    @include article-callout(url("/img/article/callout-3.jpg"));
 
     h3 {
         font-size: 24px;
@@ -303,7 +303,7 @@
 }
 
 .article--callout_alt {
-    @include article-callout(url('/img/article/callout-2.jpg'));
+    @include article-callout(url("/img/article/callout-2.jpg"));
 
     h3 {
         font-size: 24px;

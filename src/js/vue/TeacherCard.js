@@ -8,53 +8,38 @@ Vue.component("teachercard", {
                 <h2>{{ teacher }}</h2>
                 <p>{{ title }}</p>
             </div>
-            <div class="teacher-card-social">
+            <div class="teacher-card-read-more">
                 <hr>
-                  <div class="teacher-card-social_icons">
-                    <a href=""><img src="/img/article/teachers/Twitter.svg" alt="Twitter Logo"></a>
-                    <a href=""><img src="/img/article/teachers/Facebook.svg" alt="Facebook Logo"></a>
-                    <a href=""><img src="/img/article/teachers/instagram.svg" alt="Instagram Logo"></a>
+                  <div class="teacher-card-read-more_link">
+                    <a href="#">Read More</a>
                   </div>
                 <hr>
-            </div>
-            <div class="teacher-card-quote">
-                <p>{{ quote }}</p>
             </div>
         </div>
     `,
     props: {
-      teacher: {
-        type: String,
-        default: 'teacher'
-      },
-      title: {
-        type: String,
-        default: 'title'
-      },
-      quote: {
-        type: String,
-        default: 'quote'
-      },
-      animation: {
-        type: String,
-        default: 'rightToLeft'
-      }
+        teacher: {
+            type: String,
+            default: "teacher"
+        },
+        title: {
+            type: String,
+            default: "title"
+        },
+        animation: {
+            type: String,
+            default: "rightToLeft"
+        }
     },
     data() {
-      return {
-
-      }
+        return {};
     }
-  })
+});
 
-  const vm = new Vue({
+const vm = new Vue({
     el: ".teacher-cards",
-    data: {
-    },
-    computed: {
-    },
-    methods: {
-    },
-    mounted() {
-    }
-  });
+    data: {},
+    computed: {},
+    methods: {},
+    mounted() {}
+});

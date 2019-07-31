@@ -1,7 +1,7 @@
 .homepage {
     &--hero {
         height: 400px;
-        background: url('/img/homepage/hero.jpg') no-repeat center center;
+        background: url("/img/homepage/hero.jpg") no-repeat center center;
         background-size: cover;
 
         @include mq(small) {
@@ -19,13 +19,15 @@
         > div {
             display: flex;
             flex-direction: column;
-            @include mq (medium) {
+
+            @include mq(medium) {
                 display: block;
             }
         }
 
         &_top {
             order: 2;
+
             @include mq(medium) {
                 order: 1;
                 display: flex;
@@ -34,9 +36,11 @@
                 background-color: #fff;
             }
         }
+
         &_bottom {
             order: 1;
-            @include mq (medium) {
+
+            @include mq(medium) {
                 order: 2;
             }
         }
@@ -44,16 +48,18 @@
 
     &--callout {
         height: 600px;
-        background: url('/img/homepage/betsy.jpg') no-repeat left;
+        background: url("/img/homepage/betsy.jpg") no-repeat left;
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+
         > div {
             height: 600px;
             padding: 60px 50px 80px 50px;
-            background: hsla(236, 34%, 45%, .95);
-            @include mq (small) {
+            background: hsla(236, 34%, 45%, 0.95);
+
+            @include mq(small) {
                 width: 500px;
                 padding: 100px 52px 200px 52px;
             }
@@ -63,11 +69,15 @@
     &--icons {
         .column {
             align-items: flex-start;
-            @include mq (medium) {
+
+            @include mq(medium) {
                 max-width: 535px;
             }
+
             img {
+                max-width: 78px;
                 margin-right: 1.25em;
+                flex: 1 0 auto;
             }
         }
     }
@@ -75,30 +85,36 @@
     &--ytt {
         align-items: center;
         margin-top: 8em;
+
         &_box {
             max-width: 400px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             img {
                 max-width: 125px;
             }
         }
+
         .has-background-orange {
             position: relative;
             left: 5%;
         }
+
         .has-background-pink {
             position: relative;
             right: 5%;
         }
     }
+
     &--studios {
         color: #fff;
+
         img {
-            @include mq (small) {
-                max-width: 500px;        
+            @include mq(small) {
+                max-width: 500px;
             }
         }
     }

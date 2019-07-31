@@ -3,6 +3,7 @@
 
 html {
     background: #dfe3e8;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -49,7 +50,6 @@ select,
 textarea {
     font: normal 125% / 1.4 $text-font-stack;
 }
-
 
 li {
     margin-left: 20px;
