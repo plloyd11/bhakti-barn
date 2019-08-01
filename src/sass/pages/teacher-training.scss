@@ -1,5 +1,6 @@
 .teacher-training-200 {
     position: relative;
+
     .article--hero_left {
         @include article-hero-left(url("/img/article/teacher-training-200-hero.jpg"));
     }
@@ -7,6 +8,7 @@
 
 .teacher-training-300 {
     position: relative;
+
     .article--hero_left {
         @include article-hero-left(url("/img/article/teacher-training-300-hero.jpg"));
     }
@@ -14,18 +16,20 @@
 
 .teacher-training-callout {
     &-200 {
-        background-color: #51a8a8;
+        background-color: $primaryTeal;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-size: cover;
         z-index: 1;
-        > div {
+
+        >div {
             padding-top: 2em;
             padding-bottom: 2em;
             text-align: center;
         }
+
         @include mq(medium) {
             position: absolute;
             top: 10%;
@@ -33,12 +37,15 @@
             width: 575px;
         }
     }
+
     &-curriculum {
         display: flex;
         justify-content: space-between;
+
         div {
             margin: 0 1.25em;
         }
+
         p {
             color: #fff;
             margin-bottom: 0;
@@ -47,16 +54,33 @@
 }
 
 .teacher-training-callout-300 {
-    position: absolute;
-    top: -64px;
-    right: 0;
-    background: url("/img/article/teacher-training/callout-bg-300.svg");
-    width: 600px;
-    height: 700px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: $primaryOrange;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    div {
+        margin: 0 auto 24px;
+        max-width: 425px;
+        li {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: left;
+            list-style-type: decimal;
+        }
+    }
+    @include mq(medium) {
+        position: absolute;
+        top: 2%;
+        right: 0;
+        width: 575px;
+    }
 }
 
 .testimony-circle-200 {
@@ -72,9 +96,11 @@
     align-items: center;
     border-radius: 50%;
     z-index: 100;
+
     @include mq(medium) {
         top: calc(50% - 85em);
     }
+
     @include mq(large) {
         top: calc(50% - 75em);
     }
@@ -92,9 +118,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
     @include mq(medium) {
-        top: calc(50% + 15em);
+        top: calc(50% + 5em);
     }
+
     @include mq(large) {
         top: calc(50% - 64em);
     }
