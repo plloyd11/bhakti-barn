@@ -1,12 +1,12 @@
 // This file contains all application-wide Sass variables.
 
 // Colors
-$bg-dark-gray: #42474C;
-$primaryTeal: #51A8A8;
-$primaryRed: #FF4C4D;
-$primaryOrange: #FF8F4A;
-$primaryPink: #E84D79;
-$primaryPurple: #4B5098;
+$bg-dark-gray: #42474c;
+$primaryTeal: #51a8a8;
+$primaryRed: #ff4c4d;
+$primaryOrange: #ff8f4a;
+$primaryPink: #e84d79;
+$primaryPurple: #4b5098;
 
 // Hover Colors
 $primaryTealHover: hsl(183, 77%, 23%);
@@ -21,7 +21,7 @@ $layout-restrained: 0 calc(50% - 425px);
 
 // body copy
 $text-font-stack: proxima-soft, sans-serif;
-$paragraphColor: #262D2E;
+$paragraphColor: #262d2e;
 
 // Copy text color
 // @type Color
@@ -29,7 +29,7 @@ $text-color: rgb(34, 34, 34) !default;
 
 // Main brand color
 // @type Color
-$brand-color: #9DA890;
+$brand-color: #9da890;
 
 // Light grey
 // @type Color
@@ -42,4 +42,3 @@ $mid-grey: rgb(153, 153, 153) !default;
 // Dark grey
 // @type Color
 $dark-grey: rgb(68, 68, 68) !default;
-

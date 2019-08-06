@@ -2,4 +2,19 @@
     .article--hero_right {
         @include article-hero-right(url('/img/article/getting-started-hero.jpg'));
     }
+    &_sweetener-1 {
+        display: none;
+
+        @include mq(small) {
+            position: absolute;
+            right: 0;
+            top: 32%;
+            display: block;
+            width: 250px;
+        }
+
+        @include mq(medium) {
+            width: 275px;
+        }
+    }
 }

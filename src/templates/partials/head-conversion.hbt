@@ -28,4 +28,9 @@
         gtag('config', 'AW-730603346');
     </script>
 
+    <!-- Event snippet for Class Lead Form conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-730603346/RlBQCNbns6MBENK-sNwC' });
+    </script>
+
 </head>

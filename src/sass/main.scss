@@ -1,20 +1,20 @@
 @charset 'UTF-8';
 
 // 1. Configuration and helpers
-@import "utilities/variables", "utilities/functions", "utilities/media-queries", "utilities/responsive-embed", "utilities/mixins";
+@import 'utilities/variables', 'utilities/functions', 'utilities/media-queries', 'utilities/responsive-embed', 'utilities/mixins';
 
 // 2. Vendors
-@import "vendor/reset", "vendor/healcode", "vendor/mobile-menu", "vendor/modal", "vendor/accordion";
+@import 'vendor/reset', 'vendor/healcode', 'vendor/mobile-menu', 'vendor/modal', 'vendor/accordion', 'vendor/faq';
 
 // 3. Base stuff
-@import "base/base", "base/spacing", "base/typography", "base/colors", "base/helpers";
+@import 'base/base', 'base/spacing', 'base/typography', 'base/colors', 'base/helpers';
 
 // 4. Layout-related sections
-@import "layout/main-navigation", "layout/footer", "layout/global-layouts";
+@import 'layout/main-navigation', 'layout/footer', 'layout/global-layouts';
 
 // 5. Components
-@import "components/buttons", "components/forms", "components/cards", "components/ui-patterns";
+@import 'components/buttons', 'components/forms', 'components/cards', 'components/ui-patterns';
 
 // 6. Page-specific styles
-@import "pages/homepage/homepage", "pages/homepage/classes", "pages/rates", "pages/studios", "pages/rates", "pages/classes", "pages/getting-started",
-    "pages/meditation", "pages/schedule", "pages/teachers", "pages/retreats", "pages/workshops", "pages/contact-us", "pages/teacher-training";
+@import 'pages/homepage/homepage', 'pages/homepage/classes', 'pages/rates', 'pages/studios', 'pages/rates', 'pages/classes', 'pages/getting-started', 'pages/meditation',
+    'pages/schedule', 'pages/teachers', 'pages/retreats', 'pages/workshops', 'pages/contact-us', 'pages/teacher-training';

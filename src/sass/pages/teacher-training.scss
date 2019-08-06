@@ -2,7 +2,7 @@
     position: relative;
 
     .article--hero_left {
-        @include article-hero-left(url("/img/article/teacher-training-200-hero.jpg"));
+        @include article-hero-left(url('/img/article/teacher-training-200-hero.jpg'));
     }
 }
 
@@ -10,7 +10,7 @@
     position: relative;
 
     .article--hero_left {
-        @include article-hero-left(url("/img/article/teacher-training-300-hero.jpg"));
+        @include article-hero-left(url('/img/article/teacher-training-300-hero.jpg'));
     }
 }
 
@@ -24,7 +24,7 @@
         background-size: cover;
         z-index: 1;
 
-        >div {
+        > div {
             padding-top: 2em;
             padding-bottom: 2em;
             text-align: center;
@@ -120,11 +120,11 @@
     border-radius: 50%;
 
     @include mq(medium) {
-        top: calc(50% + 5em);
+        top: calc(50% - 15em);
     }
 
     @include mq(large) {
-        top: calc(50% - 64em);
+        top: calc(50% - 10em);
     }
 }
 

@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: proxima-soft, sans-serif;
+    font-family: proxima-soft, sans-serif;
 }
 
 a,
@@ -14,59 +14,75 @@ li,
 p,
 small,
 label {
-  font-family: proxima-soft, sans-serif;
+    font-family: proxima-soft, sans-serif;
 }
 
 p {
-  margin-bottom: 1em;
-  font-size: 18px;
-  color: #262D2E;
-  font-weight: 400;
-  line-height: 1.5;
+    margin-bottom: 1em;
+    font-size: 18px;
+    color: #262d2e;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a {
+    color: $primaryPurple;
+    &:hover,
+    &:focus {
+        color: $primaryPurpleHover;
+    }
 }
 
 .section-header {
-  margin-bottom: 2em;
-  font-size: 24px;
-  color: hsla(215, 15%, 22%,.6);
-  letter-spacing: 0.7px;
-  text-transform: uppercase;
+    margin-bottom: 2em;
+    font-size: 24px;
+    color: hsla(215, 15%, 22%, 0.6);
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
 }
 
 .section-header-article {
-  margin-bottom: 2em;
-  font-size: 1.95em;
-  letter-spacing: 0.5px;
+    margin-bottom: 2em;
+    font-size: 1.95em;
+    letter-spacing: 0.5px;
 }
 
 .footer-header {
-  margin: 15px 0 30px;
-  font-size: 22px;
-  color: #FFFFFF;
-  text-align: center;
-  @include mq(medium) {
-    text-align: left;
-  }
+    margin: 15px 0 30px;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    @include mq(medium) {
+        text-align: left;
+    }
 }
 
 .page-title {
-  margin-left: 9px;
-  font-size: 32px;
+    margin-left: 9px;
+    font-size: 32px;
 }
 
 .link-dark {
-  &:hover {
-    color: darken($primaryTeal, 15%);
-  }
+    &:hover {
+        color: darken($primaryTeal, 15%);
+    }
 }
 
 .has-text-script {
-  font-family: 'Waiting for the Sunrise', cursive;
-  line-height: 1.25;
+    font-family: 'Waiting for the Sunrise', cursive;
+    line-height: 1.25;
 }
 
 .has-text-width-third {
-  max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.has-bullets {
+    li {
+        list-style-type: disc;
+        font-size: 18px;
+        line-height: 1.35;
+    }
 }
