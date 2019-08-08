@@ -1,7 +1,7 @@
 .homepage {
     &--hero {
         height: 400px;
-        background: url("/img/homepage/hero.jpg") no-repeat center center;
+        background: url('/img/homepage/hero.jpg') no-repeat center center;
         background-size: cover;
 
         @include mq(small) {
@@ -39,27 +39,33 @@
 
         &_bottom {
             order: 1;
+            padding: 0 36px;
 
             @include mq(medium) {
                 order: 2;
+                padding: 0;
             }
         }
     }
 
     &--callout {
-        height: 600px;
-        background: url("/img/homepage/betsy.jpg") no-repeat left;
+        height: 100%;
+        background: url('/img/homepage/betsy.jpg') no-repeat left;
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        @include mq(small) {
+            height: 600px;
+        }
 
         > div {
-            height: 600px;
+            height: 100%;
             padding: 60px 50px 80px 50px;
             background: hsla(236, 34%, 45%, 0.95);
 
             @include mq(small) {
+                height: 600px;
                 width: 500px;
                 padding: 100px 52px 200px 52px;
             }
@@ -83,15 +89,26 @@
     }
 
     &--ytt {
+        margin-left: 0;
+        margin-right: 0;
         align-items: center;
-        margin-top: 8em;
+        margin-top: 3em;
+        @include mq(small) {
+            margin-top: 8em;
+            margin-left: -0.75rem;
+            margin-right: -0.75rem;
+        }
 
         &_box {
-            max-width: 400px;
+            max-width: 100%;
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @include mq(small) {
+                max-width: 400px;
+            }
 
             img {
                 max-width: 125px;
@@ -100,12 +117,16 @@
 
         .has-background-orange {
             position: relative;
-            left: 5%;
+            @include mq(small) {
+                left: 5%;
+            }
         }
 
         .has-background-pink {
             position: relative;
-            right: 5%;
+            @include mq(small) {
+                right: 5%;
+            }
         }
     }
 

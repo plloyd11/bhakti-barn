@@ -12,14 +12,14 @@
 .navbar {
     padding-top: 1em;
     padding-bottom: 1em;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     &-brand {
         img {
             max-width: 275px;
         }
     }
     .navbar-item {
-        color: #3E4040;
+        color: #3e4040;
         font-size: 16px;
         font-weight: 500;
         text-transform: uppercase;
@@ -91,13 +91,16 @@
     align-items: center;
 }
 
-.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+.navbar-link.is-active,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:hover {
     background-color: transparent;
     color: $primaryTeal;
 }
 
 .navbar-link:not(.is-arrowless)::after {
-    border-color: $primaryTeal
+    border-color: $primaryTeal;
 }
 
 .navbar-dropdown a.navbar-item:hover {
@@ -105,7 +108,8 @@
     text-decoration: none;
 }
 
-.navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
+.navbar-item.has-dropdown.is-active .navbar-link,
+.navbar-item.has-dropdown:hover .navbar-link {
     background-color: transparent;
 }
 

@@ -1,19 +1,27 @@
 .teachers {
     .article--hero_left {
-        @include article-hero-left(url("/img/article/teachers-hero.jpg"));
+        @include article-hero-left(url('/img/article/teachers-hero.jpg'));
     }
 }
 
 .teacher-cards {
     &_grid {
-        display: grid;
-        grid-gap: 24px;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include mq(small) {
+            display: grid;
+            grid-gap: 24px;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        }
     }
 }
 
 .teacher-card {
-    padding-bottom: 1.5em;
+    margin-bottom: 2.25em;
+    @include mq(small) {
+        margin-bottom: 0;
+    }
 
     &-info {
         margin-top: 1em;
