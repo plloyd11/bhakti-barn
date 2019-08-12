@@ -1,6 +1,6 @@
 .btn-cta {
     display: inline-block;
-    padding: .85em 3.75em .95em;
+    padding: 0.85em 3.75em 0.95em;
     border-radius: 8px;
     font-weight: 700;
     -webkit-transition: 150ms ease;
@@ -10,8 +10,8 @@
     text-align: center;
     user-select: none;
     cursor: pointer;
-    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     background-color: $primaryRed;
     color: #ffffff;
     border-width: 0;
@@ -37,8 +37,8 @@
     text-align: center;
     user-select: none;
     cursor: pointer;
-    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     background-color: $primaryRed;
     color: #ffffff;
     border-width: 0;
@@ -56,11 +56,11 @@
     background: #fff;
     border: 1px solid $primaryRed;
     color: $primaryRed;
-    padding: .7em 3.15em .8em;
-    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    padding: 0.7em 3.15em 0.8em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     font-weight: 600;
-    transition: .35s ease-in-out;
+    transition: 0.35s ease-in-out;
     &:hover {
         background: hsla(360, 68%, 55%, 1);
         color: #fff;
@@ -72,11 +72,27 @@
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
-    padding: .85em 3.75em .95em;
-    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    padding: 0.85em 3.75em 0.95em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     font-weight: 600;
-    transition: .35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    &:hover {
+        background: #fff;
+        color: $paragraphColor;
+        text-decoration: none;
+    }
+}
+
+.btn-ghost-hero {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.75em 2.25em 0.85em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.35s ease-in-out;
     &:hover {
         background: #fff;
         color: $paragraphColor;
@@ -100,4 +116,11 @@
 
 .button.is-info {
     background-color: $primaryRed;
+}
+
+.btn-send {
+    height: 36px;
+    &:hover {
+        background-color: $primaryRedHover !important;
+    }
 }

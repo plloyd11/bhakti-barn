@@ -9,12 +9,12 @@
         justify-content: center;
 
         a {
-            margin: 0 .25em;
-            color: #FF4C4D;
+            margin: 0 0.25em;
+            color: #ff4c4d;
             font-size: 16px;
             font-weight: 500;
 
-            @include mq (small) {
+            @include mq(small) {
                 margin: 0 1em;
                 font-size: 18px;
             }
@@ -35,7 +35,7 @@
         color: $primaryPink;
         font-size: 18px;
         font-weight: 500;
-        opacity: .5;
+        opacity: 0.5;
     }
 
     h2 {
@@ -43,7 +43,7 @@
         margin-bottom: 20px;
         font-size: 28px;
         font-weight: 600;
-        color: #5C6161;
+        color: $primaryPink;
     }
 
     &_sweetener-1 {
@@ -79,6 +79,6 @@
 }
 
 .is-checked {
-    color: #CC1414 !important;
+    color: #cc1414 !important;
     text-decoration: underline;
 }

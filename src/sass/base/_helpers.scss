@@ -2,9 +2,13 @@
 
 // Clear inner floats
 .clearfix::after {
-  clear: both;
-  content: '';
-  display: table;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.hidden {
+    display: none;
 }
 
 /**
@@ -13,11 +17,11 @@
  *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
 .hide-text {
-  overflow: hidden;
-  padding: 0;
-  /* 1 */
-  text-indent: 101%;
-  white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    /* 1 */
+    text-indent: 101%;
+    white-space: nowrap;
 }
 
 /**
@@ -26,38 +30,38 @@
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 // margin + padding
 
 .ma {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 // Flex Helpers
 
 .is-justified-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .has-column-centered {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .has-text-max-width {
-  max-width: 700px;
+    max-width: 700px;
 }
 
 .has-position-relative {
-  position: relative;
+    position: relative;
 }
