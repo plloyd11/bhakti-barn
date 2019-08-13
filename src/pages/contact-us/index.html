@@ -1,6 +1,6 @@
 ---
 title: Contact Us | Bhakti Barn Yoga
-description: This is a meta description
+description: Contact us today!
 page: services
 layout: article-orange.hbt
 ---
@@ -21,36 +21,46 @@ layout: article-orange.hbt
             <div class="columns">
                 <div class="column is-offset-1">
                     <h1 class="title">Contact Info</h1>
-                    <p>Our studios are open <br> Monday - Friday, 9:00am - 8:00pm EST.</p>
+                    <p>
+                        Our studios are open <br />
+                        Monday - Friday, 9:00am - 8:00pm EST.
+                    </p>
                     <div class="contact-us--icons">
                         <div>
-                            <img src="/img/icons/map.svg" alt="">
-                            <p>Bhakti Barn Yoga <br> 391 Millburn Ave <br> Millburn, NJ 07041</p>
+                            <img src="/img/icons/map.svg" alt="Map Icon" />
+                            <p>
+                                Bhakti Barn Yoga <br />
+                                391 Millburn Ave <br />
+                                Millburn, NJ 07041
+                            </p>
                         </div>
                         <div>
-                            <img src="/img/icons/phone.svg" alt="">
+                            <img src="/img/icons/phone.svg" alt="Phone Icon" />
                             <p>973-232-6227</p>
                         </div>
                         <div>
-                            <img src="/img/icons/email.svg" alt="">
-                            <p>info@bhaktibarnyoga.com</p>
+                            <img src="/img/icons/email.svg" alt="Email Icon" />
+                            <a href="mailto:bhaktibarn@gmail.com">bhaktibarn@gmail.com</a>
                         </div>
                     </div>
                 </div>
                 <div class="column">
-                    <form action="" class="contact-form">
-                            <h2 class="title is-4">Have a message? Let us know!</h2>
+                    <form name="Contact-Form" class="contact-form" netlify netlify-honeypot="bot-field">
+                        <h2 class="title is-4">Have a message? Let us know!</h2>
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+                        </p>
                         <div class="field">
                             <label class="label">Name</label>
                             <div class="control">
-                                <input class="input" type="text" placeholder="e.g Alex Smith">
+                                <input name="Name" class="input" type="text" placeholder="e.g Alex Smith" required />
                             </div>
                         </div>
 
                         <div class="field">
                             <label class="label">Email</label>
                             <div class="control">
-                                <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+                                <input name="Email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com" required />
                             </div>
                         </div>
 
@@ -59,18 +69,17 @@ layout: article-orange.hbt
                             <div class="field-body">
                                 <div class="field">
                                     <div class="control">
-                                        <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+                                        <textarea name="question" class="textarea" placeholder="Explain how we can help you" required></textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="control has-margin-top-md">
-                            <button class="btn btn-submit">Submit</button>
+                            <button class="btn btn-submit" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
 </main>

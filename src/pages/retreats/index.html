@@ -39,21 +39,28 @@ layout: article-pink.hbt
                             <h5>Dates:</h5>
                             <p class="is-size-5">October 19th, 2019 - November 2nd, 2019</p>
                             <h5>Cost:</h5>
-                            <p class="is-size-5">$1900 - $2500</p>
+                            <p class="is-size-5">$3000 - shared room</p>
+                            <p class="is-size-5">$3500 - single room</p>
+                            <small class="has-margin-bottom-md is-block">*Round-trip airfare to Dehli India not included</small>
                             <p>
-                                To hold your spot it's a $600 non refundable deposit. Full amount due two weeks prior to retreat. Let us know which room you want (they
+                                To hold your spot it's a $600 non refundable deposit. Full amount due one month prior to retreat. Let us know which room you want (they
                                 are all fabulous). There is a limited number of shares with two twin beds so if you want one, tell us ASAP!!
                             </p>
                             <hr />
                             <p>Interested in learning more about this once in a lifetime experience? Enter your email below and we’ll send you detailed information!</p>
-                            <div class="field has-addons">
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="Enter your email" />
+                            <form name="india-info" netlify netlify-honeypot="bot-field">
+                                <div class="field has-addons">
+                                    <p class="hidden">
+                                        <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+                                    </p>
+                                    <div class="control">
+                                        <input class="input" type="email" name="email" placeholder="Enter your email" required />
+                                    </div>
+                                    <div class="control">
+                                        <button class="button is-info btn-send" type="submit">Send me info!</button>
+                                    </div>
                                 </div>
-                                <div class="control">
-                                    <a class="button is-info">Send me info!</a>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -100,14 +107,19 @@ layout: article-pink.hbt
                             </p>
                             <hr />
                             <p>Interested in learning more about this once in a lifetime experience? Enter your email below and we’ll send you detailed information!</p>
-                            <div class="field has-addons">
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="Enter your email" />
+                            <form name="bali-info" netlify netlify-honeypot="bot-field">
+                                <div class="field has-addons">
+                                    <p class="hidden">
+                                        <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+                                    </p>
+                                    <div class="control">
+                                        <input class="input" type="email" name="email" placeholder="Enter your email" required />
+                                    </div>
+                                    <div class="control">
+                                        <button class="button is-info btn-send" type="submit">Send me info!</button>
+                                    </div>
                                 </div>
-                                <div class="control">
-                                    <a class="button is-info">Send me info!</a>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
