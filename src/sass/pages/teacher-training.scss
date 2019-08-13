@@ -16,6 +16,7 @@
 
 .teacher-training-callout {
     &-200 {
+        margin-top: 1.25em;
         background-color: $primaryTeal;
         display: flex;
         flex-direction: column;
@@ -31,8 +32,9 @@
         }
 
         @include mq(medium) {
+            margin-top: 0;
             position: absolute;
-            top: 10%;
+            top: 4%;
             right: 0;
             width: 575px;
         }
@@ -77,7 +79,7 @@
     }
     @include mq(medium) {
         position: absolute;
-        top: 2%;
+        top: 3%;
         right: 0;
         width: 575px;
     }
@@ -129,7 +131,9 @@
 }
 
 .has-bigass-zindex {
-    z-index: 10000;
+    @include mq(medium) {
+        z-index: 10000;
+    }
 }
 
 .apply-container {

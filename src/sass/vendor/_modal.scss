@@ -5,81 +5,47 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     display: table;
     transition: opacity 0.3s ease;
-    overflow-y: scroll;
 }
 
 .modal-wrapper {
     display: table-cell;
     vertical-align: middle;
-    overflow-y: scroll;
 }
 
 .modal-container {
+    max-width: 1000px;
     margin: 0px auto;
-    position: relative;
+    padding: 24px 124px;
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
     transition: all 0.3s ease;
-    max-height: calc(100vh - 0px);
-    overflow-y: auto;
-
-    @media (min-width: 1200px) {
-        width: 1200px;
-        max-height: initial;
-        overflow-y: initial;
-    }
 }
 
-.modal-content {
-    display: flex;
-    flex-direction: column;
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
 
-    @media (min-width: 1200px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    &_text {
-        padding: 30px 20px;
-
-        @media (min-width: 1200px) {
-            padding: 60px 40px 40px;
-        }
-
-        h2 {
-            font-weight: 600;
-        }
-
-        > p {
-            font-size: 16px;
-            line-height: 1.4;
-        }
-    }
+.modal-body {
+    margin: 20px 0;
 }
 
 .modal-default-button {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    background: transparent;
-    border: none;
-    font-size: 15px;
-    cursor: pointer;
-    color: #333e48;
+    float: right;
 }
 
 /*
-     * The following styles are auto-applied to elements with
-     * transition="modal" when their visibility is toggled
-     * by Vue.js.
-     *
-     * You can easily play with the modal transition by editing
-     * these styles.
-     */
+   * The following styles are auto-applied to elements with
+   * transition="modal" when their visibility is toggled
+   * by Vue.js.
+   *
+   * You can easily play with the modal transition by editing
+   * these styles.
+   */
 
 .modal-enter {
     opacity: 0;
@@ -93,4 +59,27 @@
 .modal-leave-active .modal-container {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.teacher-modal {
+    &--header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+            max-width: 325px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        h2 {
+            margin: 1em 0 0.75em;
+            font-size: 2rem;
+            color: $primaryTeal;
+            font-weight: 600;
+        }
+    }
 }

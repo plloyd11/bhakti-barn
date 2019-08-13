@@ -1,8 +1,8 @@
-Vue.component("teachercard", {
+Vue.component('teachercard', {
     template: `
         <div class="card teacher-card">
             <div class="teacher-card-image">
-                <slot></slot>
+                <slot name="image"></slot>
             </div>
             <div class=teacher-card-info>
                 <h2>{{ teacher }}</h2>
@@ -11,35 +11,46 @@ Vue.component("teachercard", {
             <div class="teacher-card-read-more">
                 <hr>
                   <div class="teacher-card-read-more_link">
-                    <a href="#">Read More</a>
+                    <a @click="showModal = true">Read More</a>
                   </div>
                 <hr>
+                <div class="teacher-card--modal" v-show="showModal">
+                    <transition name="modal">
+                        <div class="modal-mask">
+                            <div class="modal-wrapper" @click="showModal = false">
+                                <div class="modal-container" @click.stop>
+                                    <div class="modal-header">
+                                        <slot name="header"></slot>
+                                    </div>
+                                    <div class="modal-body">
+                                        <slot name="body"></slot>
+                                    </div>
+                                    <button class="modal-default-button" @click="showModal = false">
+                                </div>
+                            </div>
+                        </div>
+                    </transition>
+                </div>
             </div>
         </div>
     `,
     props: {
         teacher: {
             type: String,
-            default: "teacher"
+            default: 'teacher'
         },
         title: {
             type: String,
-            default: "title"
-        },
-        animation: {
-            type: String,
-            default: "rightToLeft"
+            default: 'title'
         }
     },
     data() {
-        return {};
+        return {
+            showModal: false
+        };
     }
 });
 
-const vm = new Vue({
-    el: ".teacher-cards",
-    data: {},
-    computed: {},
-    methods: {},
-    mounted() {}
+new Vue({
+    el: '.teacher-cards'
 });
