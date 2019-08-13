@@ -13,14 +13,19 @@ layout: article-orange.hbt
                 <h1 class="title">Teacher Training</h1>
                 <p>Bhakti Barn Yoga is proud to offer a 300 Hour Yoga Alliance Certified Teacher Training!</p>
                 <p class="is-marginless">Find out more today</p>
-                <div class="field has-addons">
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Enter your email" />
+                <form name="300-hour-form" netlify netlify-honeypot="bot-field">
+                    <div class="field has-addons">
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+                        </p>
+                        <div class="control">
+                            <input class="input" type="email" name="email" placeholder="Enter your email" required />
+                        </div>
+                        <div class="control">
+                            <button class="button is-info btn-send" type="submit">Send me info!</button>
+                        </div>
                     </div>
-                    <div class="control">
-                        <a class="button is-info btn-send">Send me info!</a>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
