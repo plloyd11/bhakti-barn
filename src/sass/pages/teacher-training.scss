@@ -131,3 +131,20 @@
 .has-bigass-zindex {
     z-index: 10000;
 }
+
+.apply-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include mq(small) {
+        flex-direction: row;
+    }
+    .btn-cta {
+        margin-bottom: 1em;
+        @include mq(small) {
+            margin-bottom: 0;
+            margin-right: 1em;
+        }
+    }
+}

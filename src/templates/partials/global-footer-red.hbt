@@ -22,7 +22,9 @@
         <div class="column">
             <h3 class="has-margin-bottom-sm">Contact</h3>
             <div>
-                <p class="has-text-white">bhaktibarn@gmail.com</p>
+                <a href="mailto:bhaktibarn@gmail.com" class="has-text-white">
+                    <p class="has-text-white">bhaktibarn@gmail.com</p>
+                </a>
                 <p class="has-text-white">(973) 232-6227</p>
             </div>
         </div>
