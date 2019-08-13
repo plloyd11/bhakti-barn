@@ -21,11 +21,11 @@ Vue.component('teachercard', {
                                 <div class="modal-container" @click.stop>
                                     <div class="modal-header">
                                         <slot name="header"></slot>
+                                        <a class="popupCloseButton" @click="showModal = false">Close</a>
                                     </div>
                                     <div class="modal-body">
                                         <slot name="body"></slot>
                                     </div>
-                                    <button class="btn-close-teacher-card" @click="showModal = false">Close</button>
                                 </div>
                             </div>
                         </div>

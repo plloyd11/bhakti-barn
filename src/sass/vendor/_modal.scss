@@ -31,6 +31,10 @@
     }
 }
 
+.modal-header {
+    position: relative;
+}
+
 .modal-header h3 {
     margin-top: 0;
     color: #42b983;
@@ -93,9 +97,46 @@
     }
 }
 
-.btn-close-teacher-card {
-    width: 100px;
-    height: 30px;
-    background: $primaryTeal;
-    color: #fff !important;
+.close-teacher-modal {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+.popupCloseButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 51px;
+    height: 51px;
+    font-size: 0;
+    cursor: pointer;
+    &::before {
+        content: '';
+        position: absolute;
+        background: $primaryPurple;
+        border-radius: 1px;
+        left: 14px;
+        right: 14px;
+        top: 24px;
+        height: 3px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: background 0.1s;
+        transition: background 0.1s;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        background: $primaryPurple;
+        border-radius: 1px;
+        left: 14px;
+        right: 14px;
+        top: 24px;
+        height: 3px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: background 0.1s;
+        transition: background 0.1s;
+    }
 }
