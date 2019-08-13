@@ -16,13 +16,19 @@
 }
 
 .modal-container {
-    max-width: 1000px;
+    height: 100vh;
     margin: 0px auto;
-    padding: 24px 124px;
+    overflow-y: scroll;
+    padding: 24px;
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
     transition: all 0.3s ease;
+    @include mq(small) {
+        height: inherit;
+        max-width: 1000px;
+        padding: 24px 124px;
+    }
 }
 
 .modal-header h3 {
@@ -70,9 +76,12 @@
 
         img {
             border-radius: 50%;
-            max-width: 325px;
+            max-width: 235px;
             margin: 0 auto;
             display: block;
+            @include mq(small) {
+                max-width: 325px;
+            }
         }
 
         h2 {
@@ -82,4 +91,11 @@
             font-weight: 600;
         }
     }
+}
+
+.btn-close-teacher-card {
+    width: 100px;
+    height: 30px;
+    background: $primaryTeal;
+    color: #fff !important;
 }

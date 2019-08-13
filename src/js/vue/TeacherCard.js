@@ -25,7 +25,7 @@ Vue.component('teachercard', {
                                     <div class="modal-body">
                                         <slot name="body"></slot>
                                     </div>
-                                    <button class="modal-default-button" @click="showModal = false">
+                                    <button class="btn-close-teacher-card" @click="showModal = false">Close</button>
                                 </div>
                             </div>
                         </div>
