@@ -79,7 +79,7 @@
     transition: 0.35s ease-in-out;
     &:hover {
         background: #fff;
-        color: $paragraphColor;
+        color: $paragraphColor !important;
         text-decoration: none;
     }
 }
