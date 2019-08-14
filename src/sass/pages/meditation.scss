@@ -13,7 +13,7 @@
         justify-content: space-between;
         border: 3px solid $primaryPink;
         @include mq(small) {
-            height: 500px;
+            height: 530px;
         }
 
         .card-header {
