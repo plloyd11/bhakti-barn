@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="/css/main.min.css">
     <meta name="description" content="{{ description }}" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145766548-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145766548-1');
+    </script>
+
+
     <!-- Global site tag (gtag.js) - Google Ads: 730603346 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-730603346"></script>
     <script>
