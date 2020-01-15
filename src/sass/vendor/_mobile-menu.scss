@@ -171,13 +171,34 @@ button:focus {
 }
 
 #modal-iframe {
-    .modal-close {
-        position: absolute;
-        right: 0;
-        top: 0;
-        overflow: inherit;
-    }
+    // .modal-close {
+    //     position: absolute;
+    //     right: 0;
+    //     top: 0;
+    //     overflow: inherit;
+    // }
     .modal-content {
         margin: 0;
+        width: 100%;
+    }
+    .modal-close {
+        &::before {
+            background-color: inherit !important;
+            content: inherit !important;
+            display: inherit !important;
+            left: inherit !important;
+            position: inherit !important;
+            top: inherit !important;
+            transform-origin: inherit !important;
+        }
+        &::after {
+            background-color: inherit !important;
+            content: inherit !important;
+            display: inherit !important;
+            left: inherit !important;
+            position: inherit !important;
+            top: inherit !important;
+            transform-origin:inherit !important;     
+        }
     }
 }

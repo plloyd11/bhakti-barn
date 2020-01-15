@@ -54,3 +54,29 @@ div.healcode input.hc-button,
     font-size: 16px !important;
     font-weight: 500;
 }
+
+.semantic-content .modal-content > * {
+    height: 100%;
+}
+
+.semantic-content .modal-inner {
+    padding-bottom: 55px;
+}
+
+.semantic-content {
+    .modal-content {
+        margin: 0;
+    }
+    .modal-close {
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        z-index: 1000;
+        background: url('/img/icons/close.svg') no-repeat center center;
+        background-size: cover;
+        @include mq(small) {
+            top: calc(50% - 280px);
+            right: calc(50% - 370px);
+        }
+    }
+}
