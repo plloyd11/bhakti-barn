@@ -40,4 +40,24 @@
 
     <script> (function () { var zen = document.createElement("script"); zen.type = "text/javascript"; zen.async = true; zen.src = 'https://widget.zenrez.com/business/5a84d427ae3f47001e4c6b41'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(zen, s); })(); </script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '169776573434672'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=169776573434672&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
