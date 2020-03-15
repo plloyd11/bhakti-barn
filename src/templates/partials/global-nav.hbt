@@ -36,6 +36,7 @@
                 </div>
                 <nav class="mobile-menu--overlay_items">
                     <ul>
+                        <li><a href="/" class="navbar-item">Home</a></li>
                         <li><a href="/teacher-training/200" class="navbar-item">200 Hour Teacher Training</a></li>
                         <li><a href="/teacher-training/300" class="navbar-item">300 Hour Teacher Training</a></li>
                         <li><a href="/classes" class="navbar-item">Classes</a></li>
@@ -44,10 +45,10 @@
                         <li><a href="/meditation" class="navbar-item">Meditation</a></li>
                         <li><a href="/workshops" class="navbar-item">Workshops</a></li>
                         <li><a href="/retreats" class="navbar-item">Retreats</a></li>
-                        <li><a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98"
-                                target="_blank" class="navbar-item">My Account</a></li>
+                        <li><a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item">My Account</a></li>
                         <li><a href="/rates" class="navbar-item">Rates</a></li>
                         <li><a href="/studios" class="navbar-item">Studios</a></li>
+                        <li><a href="/contact-us" class="navbar-item">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>

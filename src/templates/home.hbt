@@ -3,11 +3,15 @@
 
 {{> head }}
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
+
 <body>
 
   {{> top-nav-teal }}
 
   {{> global-nav-homepage }}
+
+  {{> alert-banner }}
 
   {{{ contents }}}
 

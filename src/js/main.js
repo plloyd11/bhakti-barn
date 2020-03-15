@@ -15,3 +15,9 @@ $(document).ready(function() {
         $('.mobile-menu--overlay').removeClass('open');
     });
 });
+
+$(document).ready(function() {
+    $('#alert-close').on('click', function() {
+        $('#alert-banner').addClass('hidden');
+    });
+});

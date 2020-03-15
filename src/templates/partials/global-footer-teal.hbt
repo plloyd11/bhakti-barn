@@ -12,10 +12,10 @@
                 <a href="/retreats" class="navbar-item has-text-white">Retreats</a>
                 <a href="/contact-us" class="navbar-item has-text-white">Contact Us</a>
             </div>
-            <div class="has-margin-top-md">
-                <img src="/img/icons/teal/facebook-teal.svg" alt="" class="global--footer_social">
-                <img src="/img/icons/teal/instagram-teal.svg" alt="" class="global--footer_social">
-                <img src="/img/icons/teal/twitter-teal.svg" alt="" class="global--footer_social">
+            <div class="has-margin-top-md flex">
+                <img src="/img/icons/teal/facebook-teal.svg" alt="" class="global--footer_social mr-2">
+                <img src="/img/icons/teal/instagram-teal.svg" alt="" class="global--footer_social mr-2">
+                <img src="/img/icons/teal/twitter-teal.svg" alt="" class="global--footer_social mr-2">
                 <img src="/img/icons/teal/youtube-teal.svg" alt="" class="global--footer_social">
             </div>
         </div>
@@ -29,6 +29,6 @@
             </div>
         </div>
     </div>
-    <small class="has-text-centered is-block">©2019 - Bhakti Barn Yoga | All right reserved</small>
+    <small class="has-text-centered is-block">©2020 - Bhakti Barn Yoga | All right reserved</small>
     <img src="/img/borders/border-wide.png" alt="">
 </footer>

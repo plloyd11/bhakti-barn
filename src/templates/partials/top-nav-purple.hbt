@@ -2,8 +2,8 @@
     <div class="container is-fluid">
         <div class="navbar-menu">
             <div class="navbar-end">
-                <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank"
-                    class="navbar-item has-text-white">My Account</a>
+                <a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item has-text-white">My Account</a>
+                <a href="https://app.namastream.com/#/bhakti-barn-yoga/auth/signup" class="navbar-item has-text-white" target="_blank">Online Classes</a>
                 <a href="/rates" class="navbar-item has-text-white">Rates</a>
                 <a href="/studios" class="navbar-item has-text-white">Studios</a>
                 <a href="/contact-us" class="navbar-item has-text-white">Contact Us</a>
