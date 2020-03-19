@@ -1,6 +1,12 @@
 .schedule-millburn {
     .article--hero_left {
-        @include article-hero-left(url('/img/article/millburn-hero.jpg'));
+        @include article-hero-left(url('/img/article/millburn-alt-hero.jpg'));
+        .article--hero-content {
+            width: 300px;
+            @include mq(small) {
+                width: 450px;
+            }
+        }
     }
 }
 

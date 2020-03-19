@@ -14,7 +14,10 @@
 }
 
 .homepage--classes {
-    padding: 11em 0;
+
+    @include mq(medium) {
+        padding: 11em 0;
+    }
 
     &-container {
         @include mq(hd) {
