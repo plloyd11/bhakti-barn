@@ -13,8 +13,8 @@
 @import 'layout/main-navigation', 'layout/footer', 'layout/global-layouts';
 
 // 5. Components
-@import 'components/buttons', 'components/forms', 'components/cards', 'components/ui-patterns';
+@import 'components/buttons', 'components/forms', 'components/cards', 'components/ui-patterns', 'components/alert-banner';
 
 // 6. Page-specific styles
-@import 'pages/homepage/homepage', 'pages/homepage/classes', 'pages/rates', 'pages/studios', 'pages/rates', 'pages/classes', 'pages/getting-started', 'pages/meditation',
+@import 'pages/homepage/homepage', 'pages/homepage/classes', 'pages/homepage/callout', 'pages/rates', 'pages/studios', 'pages/rates', 'pages/classes', 'pages/getting-started', 'pages/meditation',
     'pages/schedule', 'pages/teachers', 'pages/retreats', 'pages/workshops', 'pages/contact-us', 'pages/teacher-training', 'pages/thank-you';
