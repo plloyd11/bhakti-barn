@@ -1,4 +1,26 @@
 ---
 label: News Item
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: This is the title of the post
+- name: content-area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content Area
+  description: The main content for the post
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: Image upload for the post
