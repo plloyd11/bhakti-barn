@@ -52,6 +52,13 @@
     padding:10px;
     background-color:#ffffff;
     font-size: 14px;
+    @include mq(small) {
+      background: url(/img/sweeteners/classes-mandala-2.png), white;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position-x: -130px;
+      background-position-y: 300px;
+    }
   }
   .maintext{
     text-align: center;
