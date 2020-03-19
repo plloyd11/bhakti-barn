@@ -18,6 +18,6 @@ build:
   preview_output_directory: "/build"
   install_dependencies_command: npm install
   preview_docker_image: node:8.17.0
-  mount_path: "/srv"
+  mount_path: build
   working_dir: "/srv"
   instant_preview_command: gulp static-deploy
