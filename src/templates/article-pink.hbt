@@ -11,6 +11,8 @@
 
   {{{ contents }}}
 
+  {{> alert-banner }}
+
   {{> global-footer-pink }}
 
   {{> scripts }}
