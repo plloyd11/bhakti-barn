@@ -1,11 +1,13 @@
 .homepage {
     &--hero {
         height: 400px;
-        background: url('/img/homepage/hero.jpg') no-repeat center center;
+        background: url('/img/homepage/hero-2.jpg') no-repeat center center;
         background-size: cover;
 
         @include mq(small) {
             height: 900px;
+            background: url('/img/homepage/hero.jpg') no-repeat center center;
+            background-size: cover;
         }
     }
 
