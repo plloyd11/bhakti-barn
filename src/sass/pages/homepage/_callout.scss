@@ -1,5 +1,15 @@
 .popup-box {
     padding: 1.45em;
+    position: relative;
+    .close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-weight: 700;
+      font-size: 16px;
+      color: $primaryOrange;
+      cursor: pointer;
+    }
     h2 {
       margin-top: 7.5px;
       margin-bottom: 20px;
