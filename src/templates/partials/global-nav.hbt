@@ -32,7 +32,7 @@
                             </g>
                         </g>
                     </svg>
-                    <a href="tel:+9732326227">(973) 232-6227</a>
+                    <a href="tel:9732326227">(973) 232-6227</a>
                 </div>
                 <nav class="mobile-menu--overlay_items">
                     <ul>
@@ -45,7 +45,8 @@
                         <li><a href="/meditation" class="navbar-item">Meditation</a></li>
                         <li><a href="/workshops" class="navbar-item">Workshops</a></li>
                         <li><a href="/retreats" class="navbar-item">Retreats</a></li>
-                        <li><a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98" target="_blank" class="navbar-item">My Account</a></li>
+                        <li><a href="http://clients.mindbodyonline.com/classic/ws?studioid=9861&stype=-98"
+                                target="_blank" class="navbar-item">My Account</a></li>
                         <li><a href="/rates" class="navbar-item">Rates</a></li>
                         <li><a href="/studios" class="navbar-item">Studios</a></li>
                         <li><a href="/contact-us" class="navbar-item">Contact Us</a></li>
