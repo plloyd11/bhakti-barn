@@ -80,3 +80,21 @@ div.healcode input.hc-button,
         }
     }
 }
+
+.bw-widget__date {
+    background: $primaryPurple;
+    color: #fff;
+    font-weight: 600 !important;
+}
+
+.bw-session__basics {
+    .bw-widget__cart_button {
+        background: $primaryRed;
+        padding: 8px 20px;
+        border-radius: 4px;
+        > button {
+            color: #fff !important;
+            font-weight: 600 !important;
+        }
+    }
+}
