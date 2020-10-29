@@ -54,7 +54,7 @@
                 }
 
                 &:nth-child(1) {
-                    @include classes-bg(url('/img/homepage/chair-yoga.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/tent.jpg') no-repeat center center);
                 }
 
                 &:nth-child(2) {
@@ -97,7 +97,7 @@
                 }
 
                 &:nth-child(4) {
-                    @include classes-bg(url('/img/homepage/tai-chi.jpg') no-repeat center center);
+                    @include classes-bg(url('/img/homepage/life-stream.jpg') no-repeat center center);
                 }
             }
         }

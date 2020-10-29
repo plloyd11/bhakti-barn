@@ -1,0 +1,3 @@
+[build]
+  command = "gulp static-deploy"
+  publish = "/build"

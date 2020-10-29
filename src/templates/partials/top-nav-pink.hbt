@@ -6,7 +6,7 @@
                     class="navbar-item has-text-white">My Account</a>
                 {{!-- <a href="https://app.namastream.com/#/bhakti-barn-yoga/auth/signup" class="navbar-item has-text-white" target="_blank">Online Classes</a> --}}
                 <a href="/rates" class="navbar-item has-text-white">Rates</a>
-                <a href="/studios" class="navbar-item has-text-white">Studios</a>
+                <a href="/studio" class="navbar-item has-text-white">Studio</a>
                 <a href="/contact-us" class="navbar-item has-text-white">Contact Us</a>
                 <a href="tel:9732326227" class="navbar-item has-text-white">(973) 232-6227</a>
             </div>

@@ -100,11 +100,11 @@
     z-index: 100;
 
     @include mq(medium) {
-        top: calc(50% - 85em);
+        top: calc(50% - 100em);
     }
 
     @include mq(large) {
-        top: calc(50% - 75em);
+        top: calc(50% - 90em);
     }
 }
 

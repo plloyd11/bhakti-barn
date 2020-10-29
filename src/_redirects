@@ -14,6 +14,7 @@
 /your-guides /teacher-training/200/
 /our-experts /teachers/
 /copy-of-our-experts /teachers/
+/studios /studio
 
 # Redirect default Netlify subdomain to primary domain
 https://bhakti-barn.netlify.com/* https://www.bhaktibarn.com/:splat 301!
