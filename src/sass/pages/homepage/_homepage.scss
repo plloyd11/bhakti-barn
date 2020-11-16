@@ -16,10 +16,10 @@
             bottom: calc(50% - 120px);
             left: calc(100% - 30rem);
             @include mq(small) {
-                width: 256px;
-                bottom: calc(50% - 300px);
+                width: 244px;
+                bottom: calc(50% - 260px);
                 left: inherit;
-                right: calc(100% - 28rem);
+                right: calc(100% - 24rem);
             }
         }
     }
