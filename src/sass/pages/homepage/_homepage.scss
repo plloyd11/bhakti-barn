@@ -1,5 +1,6 @@
 .homepage {
     &--hero {
+        position: relative;
         height: 400px;
         background: url('/img/homepage/hero-2.jpg') no-repeat center center;
         background-size: cover;
@@ -8,6 +9,18 @@
             height: 900px;
             background: url('/img/homepage/hero.jpg') no-repeat center center;
             background-size: cover;
+        }
+        &_btnz {
+            position: absolute;
+            width: 96px;
+            bottom: calc(50% - 120px);
+            left: calc(100% - 30rem);
+            @include mq(small) {
+                width: 256px;
+                bottom: calc(50% - 300px);
+                left: inherit;
+                right: calc(100% - 28rem);
+            }
         }
     }
 
