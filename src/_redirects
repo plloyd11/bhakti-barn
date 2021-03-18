@@ -1,7 +1,8 @@
 # Redirects from what the browser requests to what we serve
 
 /news /rates/
-/bhakti-barn-yoga-glen-ridge /schedule/glen-ridge/
+/bhakti-barn-yoga-glen-ridge /schedule/millburn/
+/schedule/glen-ridge /schedule/millburn/
 /beaustifulstudios /studios/
 /retreat-to-bali /retreats/
 /retreat-to-india /retreats/
@@ -15,7 +16,6 @@
 /our-experts /teachers/
 /copy-of-our-experts /teachers/
 /studios /studio
-/schedule/glen-ridge /schedule/millburn
 
 # Redirect default Netlify subdomain to primary domain
 https://bhakti-barn.netlify.com/* https://www.bhaktibarn.com/:splat 301!
