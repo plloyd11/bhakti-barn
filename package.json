@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "gsap": "^1.20.6",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.7.7",
     "marked": "^0.6.2",
     "metalsmith": "^2.2.0",
     "metalsmith-ignore": "^0.1.2",
