@@ -18,8 +18,7 @@
             @include mq(small) {
                 width: 244px;
                 bottom: calc(50% - 260px);
-                left: inherit;
-                right: calc(100% - 24rem);
+                left: calc(100% - 22rem);
             }
         }
     }
