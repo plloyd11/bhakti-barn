@@ -37,8 +37,8 @@
                 <nav class="mobile-menu--overlay_items">
                     <ul>
                         <li><a href="/" class="navbar-item">Home</a></li>
-                        <li><a href="/teacher-training/200" class="navbar-item">200 Hour Teacher Training</a></li>
-                        <li><a href="/teacher-training/300" class="navbar-item">300 Hour Teacher Training</a></li>
+                        <li><a href="/teacher-training/200" class="navbar-item">200 Hour Teacher Training - Level 1</a></li>
+                        <li><a href="/teacher-training/300" class="navbar-item">300 Hour Teacher Training - Level 2</a></li>
                         <li><a href="/classes" class="navbar-item">Classes</a></li>
                         <li><a href="/schedule/millburn" class="navbar-item">Schedule</a></li>
                         <li><a href="/teachers" class="navbar-item">Teachers</a></li>
@@ -59,8 +59,8 @@
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">Teacher Training</a>
                     <div class="navbar-dropdown">
-                        <a href="/teacher-training/200" class="navbar-item has-text-white">200 Hour Teacher Training</a>
-                        <a href="/teacher-training/300" class="navbar-item has-text-white">300 Hour Teacher Training</a>
+                        <a href="/teacher-training/200" class="navbar-item has-text-white">200 Hour Teacher Training - Level 1</a>
+                        <a href="/teacher-training/300" class="navbar-item has-text-white">300 Hour Teacher Training - Level 2</a>
                     </div>
                 </div>
                 <a href="/classes" class="navbar-item">Classes</a>
