@@ -12,6 +12,10 @@
     .article--hero_left {
         @include article-hero-left(url('/img/article/teacher-training-300-hero.jpg'));
     }
+
+    .article--hero-content {
+        width: 450px;
+    }
 }
 
 .teacher-training-callout {
@@ -155,4 +159,8 @@
             margin-right: 1em;
         }
     }
+}
+
+.small-negitive-dude {
+    margin-top: -20px;
 }
