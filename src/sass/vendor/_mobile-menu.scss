@@ -53,7 +53,7 @@
 .mobile-menu--call {
     position: relative;
     top: 6%;
-    left: 12%;
+    left: 2%;
     display: flex;
     align-items: center;
     width: fit-content;
@@ -70,6 +70,7 @@
     position: relative;
     opacity: 0;
     margin-bottom: 24px;
+    padding-left: 24px;
 }
 
 .mobile-menu--overlay ul li a {
@@ -198,7 +199,7 @@ button:focus {
             left: inherit !important;
             position: inherit !important;
             top: inherit !important;
-            transform-origin:inherit !important;     
+            transform-origin:inherit !important;
         }
     }
 }
