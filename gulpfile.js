@@ -101,7 +101,7 @@ gulp.task('static-deploy', ['build'], (done) => {
   .on('end', () => del([
     './build/pages/',
     './build/templates/'
-  ]),
+  ])
 )});
 
 // Standalone server
